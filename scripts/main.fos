@@ -3386,6 +3386,11 @@ void karma_voting( Critter& crFrom, Critter& crTo, bool valUp )
 
 }
 
+bool check_look(Map& map, Critter& cr, Critter& opponent)
+{
+	return true;
+}
+
 // //////////////////////////////////////////////////////////////////////////////////////////////////
 // Call to determine visibility of items with ITEM_TRAP flag.
 // To start working set flag LOOK_CHECK_SCRIPT to __LookChecks global var.

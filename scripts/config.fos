@@ -109,7 +109,7 @@ void InitializeGame()							// Export
     __LookChecks |= LOOK_CHECK_SNEAK_WEIGHT;	// Nerf sneak by current weight
     __LookWeight = 10;							// Lost 1 sneak point per 10 gramm
     __LookChecks |= LOOK_CHECK_TRACE;			// Tracing for wall aviablility
-    __LookChecks |= LOOK_CHECK_SCRIPT;      	// Allow bool check_look(...) in main.fos, all other defines ignored
+    //__LookChecks |= LOOK_CHECK_SCRIPT;      	// Allow bool check_look(...) in main.fos, all other defines ignored
     __LookChecks |= LOOK_CHECK_ITEM_SCRIPT;		// Allow bool check_trap_look(...) in main.fos, for items with ITEM_TRAP flag
 
 	bool LookDataActivation = true;

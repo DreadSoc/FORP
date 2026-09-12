@@ -1,6 +1,8 @@
 # ifdef __SERVER
 // =============== SERVER ===============
 
+#include "_defines.fos"
+
 // import void OpenLinkRemote( Critter& player, string& url) from "link";
 
 void OpenLinkRemote( Critter& player, string& url)

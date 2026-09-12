@@ -2752,7 +2752,7 @@ void dist( Critter& cr, int toX, int toY, int ) {
 	uint dist = GetDistantion(hexX, hexY, toX, toY);
 	cr.Say( SAY_NETMSG, "Distnace: "+dist );
 }
-
+/*
 void can_see( Critter& player, int p0, int p1, int p2 )
 {
     Map@ map = player.GetMap();
@@ -2793,7 +2793,7 @@ void seen_by( Critter& player, int p0, int p1, int p2 )
     else
         player.Say( SAY_NETMSG, "Oh no! Where i am" );
 }
-
+*/
 void reload_config( Critter& player, int p0, int p1, int p2 )
 {
 	DllReloadConfig();
