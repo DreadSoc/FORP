@@ -23,10 +23,14 @@
 // returns coordinates and ticks since previous hex
 # pragma bindfunc "uint PreviousHex(Critter&, uint16&, uint16&) -> rust_dll/server.dll prev_hex"
 
+// unfucked version of hex tracer from engine
+# pragma bindfunc "void RustyGetHexCoord(Map@, uint16, uint16, uint16&, uint16&, float, uint) -> rust_dll/server.dll get_hex_coord"
+# pragma bindfunc "void RustyGetHexCoordWall(Map@, uint16, uint16, uint16&, uint16&, float, uint) -> rust_dll/server.dll get_hex_coord_wall"
+
 // =============== SERVER: CHECK LOOK ===============
 
 // sever check look implementation, call directly only for testing
-# pragma bindfunc "bool check_look(Map& map, Critter& cr, Critter& opponent) -> rust_dll/server.dll check_look"
+// # pragma bindfunc "bool check_look(Map& map, Critter& cr, Critter& opponent) -> rust_dll/server.dll check_look"
 // server config reload (only check_look config for now)
 # pragma bindfunc "void DllReloadConfig() -> rust_dll/server.dll reload_config"
 

@@ -2191,8 +2191,6 @@
 #pragma bindfunc "int Critter::GetSocket() 												-> fonline_tnf.dll Critter_GetSocket"
 #pragma bindfunc "int Critter::GetUID(uint8) 												-> fonline_tnf.dll Critter_GetUID"
 #pragma bindfunc "uint Critter::GetCurrentIp() 											-> fonline_tnf.dll Critter_GetCurrentIp"
-#pragma bindfunc "void RustyGetHexCoord(Map@, uint16, uint16, uint16&, uint16&, float, uint) -> rust_dll/server.dll get_hex_coord"
-#pragma bindfunc "void RustyGetHexCoordWall(Map@, uint16, uint16, uint16&, uint16&, float, uint) -> rust_dll/server.dll get_hex_coord_wall"
 # endif //__SERVER
 
 # ifdef __CLIENT
@@ -2331,6 +2329,11 @@
 #endif //__CLIENT
 
 #endif // SKIP_PRAGMAS
+
+#ifdef __CORRODED_SCRIPTS
+#define RUST_NULL_API
+#endif // __CORRODED_SCRIPTS
+
 #ifdef RUST_NULL_API
 #ifdef __SERVER
 shared string@ Item_GetLexems(Item& item)
@@ -2359,14 +2362,29 @@ shared string@ FloatToSI(float, string&, uint8)
 }
 
 shared void DiscordSendMessage(string&, string&){}
-shared uint PreviousHex(Critter&, uint16&, uint16&){ return 0; }
-shared bool check_look(Map& map, Critter& cr, Critter& opponent){ return true; }
 shared void DllReloadConfig(){}
 shared void DllCritterInit(Critter&, bool){}
 shared bool DllPlayerLogin(uint, string&, uint){ return true; }
 shared void DllPlayerAfterLogin(Critter&){}
 shared void DllLoop(){}
 shared void PlayerAuth(Critter&){}
+
+shared void RustyGetHexCoord(Map@ map, uint16 hex_x, uint16 hex_y, uint16& end_x, uint16& end_y, float angle, uint dist) {
+	map.GetHexCoord(hex_x, hex_y, end_x, end_y, angle, dist);
+}
+
+shared void RustyGetHexCoordWall(Map@ map, uint16 hex_x, uint16 hex_y, uint16& end_x, uint16& end_y, float angle, uint dist) {
+	map.GetHexCoordWall(hex_x, hex_y, end_x, end_y, angle, dist);
+}
+
+shared uint PreviousHex(Critter& cr, uint16& hex_x, uint16& hex_y) {
+	uint ticks = 0;
+	#ifdef __CORRODED_SCRIPTS
+	ticks = cr.PreviousHex(hex_x, hex_y);
+	#endif // __CORRODED_SCRIPTS
+	return ticks;
+}
+
 #endif // __SERVER
 #endif // RUST_NULL_API
 #endif // __DEFINES__
