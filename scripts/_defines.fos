@@ -2338,7 +2338,11 @@
 #ifdef __SERVER
 shared string@ Item_GetLexems(Item& item)
 {
-	return null;
+	string@ lexems = null;
+	#ifdef __CORRODED_SCRIPTS
+	@lexems = item.GetLexems();
+	#endif // __CORRODED_SCRIPTS
+	return lexems;
 }
 
 shared string@ GetMsgStr(uint, uint, uint)
