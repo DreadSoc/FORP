@@ -2345,10 +2345,12 @@ shared string@ Item_GetLexems(Item& item)
 	return lexems;
 }
 
+#ifndef __CORRODED_SCRIPTS
 shared string@ GetMsgStr(uint, uint, uint)
 {
 	return null;
 }
+#endif // ! __CORRODED_SCRIPTS
 
 shared uint FloatToBits(float)
 {
