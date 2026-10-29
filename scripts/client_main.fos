@@ -6878,7 +6878,8 @@ void ShowGases()
 				{
 					int zx = 0, zy = 0;
 					uint8 r0 = 0x7F, g0 = 0x7F, b0 = 0x7F;
-					uint color = ( gasSign.Val4 == 0 ? COLOR_RGBA( r0, g0, b0, 100 ) : COLOR_RGBA( 0x3F, 0x3F, 0x3F, 100 ) );
+					int strength = gasSign.Val6 > 0 ? 10 : 100;
+					uint color = ( gasSign.Val4 == 0 ? COLOR_RGBA( r0, g0, b0, strength ) : COLOR_RGBA( 0x3F, 0x3F, 0x3F, strength ) );
 					for( uint8 j = 0; j < 6; j++ )
 					{
 						uint16 tx = gasSign.HexX, ty = gasSign.HexY;
@@ -6894,7 +6895,8 @@ void ShowGases()
 				int hx = 0, hy = 0;
 				GetHexPos( gasSign.HexX, gasSign.HexY, hx, hy );
 				DrawSprite( GasSpriteId, -1, hx - 12, hy - 14, COLOR_LGRAY );
-				DrawText( "S: " + gasSign.Val0, hx - 12, hy - 24, hx, hy, COLOR_LGRAY, FONT_FALLOUT, FT_BORDERED );
+				string group = gasSign.Val5 > 0 ? "#" + gasSign.Val5: "";
+				DrawText( "S" + group + ": " + gasSign.Val0, hx - 12, hy - 24, hx, hy, COLOR_LGRAY, FONT_FALLOUT, FT_BORDERED );
 				DrawText( "" + gasSign.Val1 + " sec", hx-12, hy + 12, hx, hy, COLOR_LGRAY, FONT_FALLOUT, FT_BORDERED );
 			}
 		}

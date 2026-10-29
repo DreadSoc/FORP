@@ -51,6 +51,10 @@
 #define LOCATION_rs4_2				( 816 )
 #define LOCATION_rs2_0				( 836 )
 #define LOCATION_RS					( 841 )
+#define LOCATION_cheyenne_depot_pt1	( 850 )
+#define LOCATION_cheyenne_depot_pt2	( 851 )
+#define LOCATION_cheyenne_ranch		( 852 )
+#define LOCATION_cheyenne_capitol	( 853 )
 
 // ************************************************************************/
 // * Maps                                               	             */
@@ -617,6 +621,33 @@
 #define MAP_rs4_03					( 8420 )
 #define MAP_rs_v0					( 8421 )
 #define MAP_rs_v0_dn				( 8422 )
+#define MAP_burner_tubes			( 8423 )
+
+//Maps Cheyenne
+#define MAP_cheyenne_depot_pt1		( 8500 )
+#define MAP_cheyenne_depot_pt1_up1	( 8501 )
+#define MAP_cheyenne_depot_pt1_up2	( 8502 )
+#define MAP_cheyenne_depot_pt1_up3	( 8503 )
+#define MAP_cheyenne_depot_pt1_up4	( 8504 )
+#define MAP_cheyenne_depot_pt2		( 8510 )
+#define MAP_cheyenne_depot_pt2_up1	( 8511 )
+#define MAP_cheyenne_depot_pt2_up2	( 8512 )
+#define MAP_cheyenne_depot_pt2_up3	( 8513 )
+#define MAP_cheyenne_depot_pt2_up4	( 8514 )
+#define MAP_cheyenne_depot_pt2_up5	( 8515 )
+#define MAP_cheyenne_ranch			( 8520 )
+#define MAP_cheyenne_capitol		( 8530 )
+#define MAP_cheyenne_capitol_up1	( 8531 )
+#define MAP_cheyenne_capitol_up2	( 8532 )
+#define MAP_cheyenne_capitol_up3	( 8533 )
+#define MAP_cheyenne_capitol_up4	( 8534 )
+#define MAP_cheyenne_capitol_up5	( 8535 )
+#define MAP_cheyenne_capitol_up6	( 8536 )
+#define MAP_cheyenne_capitol_up7	( 8537 )
+#define MAP_cheyenne_capitol_up8	( 8538 )
+#define MAP_cheyenne_capitol_up9	( 8539 )
+#define MAP_cheyenne_capitol_up10	( 8540 )
+#define MAP_cheyenne_capitol_up11	( 8541 )
 
 //maps No Man's Land
 #define MAP_V35_Anthill				( 9000 )
@@ -667,14 +698,6 @@
 #define MAP_v35_prometei_up 		( 9291 )
 #define MAP_v35_prometei_dn 		( 9292 )
 #define MAP_v35_prometei_dn2 		( 9293 )
-
-//Maps Vault 32
-#define MAP_vault32_surface         ( 9301 )
-#define MAP_vault32_dn1             ( 9302 )
-#define MAP_vault32_dn2             ( 9303 )
-#define MAP_vault32_dn3             ( 9304 )
-#define MAP_vault32_dn4             ( 9305 )
-
 
 //Event Maps
 #define MAP_event2_slavers_in		( 102 )

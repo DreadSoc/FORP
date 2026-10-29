@@ -6763,8 +6763,10 @@ class MenuGMHexGas: DefaultMenuHandler
 		{
 			if( menu.Button( "Gas Hex" ) )
 			{
-				GasHex( gm, map.Id, hex_X, hex_Y, gm.Param[ CR_VAL2 ], gm.Param[ CR_VAL3], gm.Param[ CR_VAL4 ], gm.Param[ CR_VAL5 ] );
+				GasHex( gm, map.Id, hex_X, hex_Y, gm.Param[ CR_VAL2 ], gm.Param[ CR_VAL3], gm.Param[ CR_VAL4 ], gm.Param[ CR_VAL5 ], gm.Param[ CR_VAL6 ] );
 				string info = "[" + gasTypeName( gm.ParamBase[ CR_VAL5 ] ) + "] Gas";
+				if( gm.Param[ CR_VAL6 ] > 0 )
+					info += "( group #" + gm.Param[ CR_VAL6 ] + ")";
 				unsafe_log_2( gm, 0, 0, 0, gm.Name + " " + gm.Id + " Created " + info + " source hex on map: " + map.Id + " hex_X: " + hex_X + " hex_Y: " + hex_Y, null );
 				return true;
 			}
@@ -6793,6 +6795,25 @@ class MenuGMHexGas: DefaultMenuHandler
 		if( menu.Button( "Type: " + gas_type ) )
 		{
 			gm.ParamBase[ CR_VAL5 ] = ( gm.ParamBase[ CR_VAL5 ] + 1 ) % GAS_TYPE_MAX;
+			return true;
+		}
+		
+		string gas_group = gm.ParamBase[ CR_VAL6 ];
+		if( menu.ButtonExtSay( "Group: ", gas_group, "Group:" ) )
+		{
+			string strength = menu.GetSayValue();
+			int val = 0;
+			StrToInt( strength, val );
+			if( val > 0 )
+			{
+				gm.ParamBase[ CR_VAL6 ] = val;
+				gm.Say( SAY_NETMSG, "|0xFFFF00 Gas group set to: " + val + "." );
+			}
+			else
+			{
+				gm.ParamBase[ CR_VAL6 ] = 0;
+				gm.Say( SAY_NETMSG, "|0xFFFF00 The value must be positive!" );
+			}
 			return true;
 		}
 		

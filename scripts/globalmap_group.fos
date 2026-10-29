@@ -3232,7 +3232,8 @@ int GetMapLevelByPid( uint pid )
 		case( MAP_rs5_2_up1 ):
 		case( MAP_rs5_3_up1 ):
 		case( MAP_rs5_3_up2 ):
-		case( MAP_rs5_3_up3 ):			
+		case( MAP_rs5_3_up3 ):	
+		case( MAP_burner_tubes ):			
 			level = -1;
             break;
 		case( MAP_rs_burner ):
@@ -3336,20 +3337,41 @@ int GetMapLevelByPid( uint pid )
 		case( MAP_V35_los_nomados_up2 ):
             level = 2;
             break;
-    // Vault32
-        case( MAP_vault32_surface ):
-		case( MAP_vault32_dn1 ):
-		case( MAP_vault32_dn2 ):
-		case( MAP_vault32_dn3 ):
-		case( MAP_vault32_dn4 ):
-		default:
-			 level = 0;
+	// Cheyenne
+		case( MAP_cheyenne_depot_pt1 ):
+		case( MAP_cheyenne_depot_pt1_up1 ):
+		case( MAP_cheyenne_depot_pt1_up2 ):
+		case( MAP_cheyenne_depot_pt1_up3 ):
+		case( MAP_cheyenne_depot_pt1_up4 ):
+		case( MAP_cheyenne_depot_pt2 ):
+		case( MAP_cheyenne_depot_pt2_up1 ):
+		case( MAP_cheyenne_depot_pt2_up2 ):
+		case( MAP_cheyenne_depot_pt2_up3 ):
+		case( MAP_cheyenne_depot_pt2_up4 ):	
+		case( MAP_cheyenne_depot_pt2_up5 ):
+		case( MAP_cheyenne_ranch ):
+		case( MAP_cheyenne_capitol ):
+		case( MAP_cheyenne_capitol_up1 ):
+		case( MAP_cheyenne_capitol_up2 ):
+		case( MAP_cheyenne_capitol_up3 ):
+		case( MAP_cheyenne_capitol_up4 ):	
+		case( MAP_cheyenne_capitol_up5 ):
+		case( MAP_cheyenne_capitol_up6 ):
+		case( MAP_cheyenne_capitol_up7 ):
+		case( MAP_cheyenne_capitol_up8 ):
+		case( MAP_cheyenne_capitol_up9 ):	
+		case( MAP_cheyenne_capitol_up10 ):
+		case( MAP_cheyenne_capitol_up11 ):
+			level = 1;
+            break;
+        default:	
+			level = 0;
 			break;
 
-   
-
     }
-     return level;
+
+    return level;
+
 }
 
 bool LocIsCity( uint locPid )

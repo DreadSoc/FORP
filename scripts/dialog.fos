@@ -10,6 +10,7 @@
 #include "drugs_h.fos"
 
 import void TeleToTarget( Critter& player, Map@ map, uint16 x, uint16 y ) from "test";
+import void GM_PetDog( Critter& npc ) from "ai_pet_dog";
 
 #define MAX_UINT	65535
 
@@ -1021,6 +1022,97 @@ void r_DrivePlayer2Loc( Critter& player, Critter@ npc )
 	if(!map.GetEntireCoords(entireNum, 0, toHX, toHY)) return;
 
 	TeleToTarget( player, map, toHX, toHY );
+}
+
+//~run dialog test_wip crit_id map_pid end_num
+void test_TransitToMap( Critter& gm, int crit_id, int map_pid, int ent_num )
+{
+	Critter@ target = GetCritter( crit_id );
+	if( !valid( target ) )
+		@target = @gm;
+	
+	r_TransitToMap( target, null, map_pid, ent_num );
+}
+
+bool canFollow( Critter@ follower, Critter@ target )
+{
+	if( follower.Id == target.Id ) return true;
+	return follower.IsSee( target );
+}
+
+void r_TransitToMap(Critter& player, Critter @ npc, int map_pid, int ent_num )
+{
+    Map@ map = GetMapByPid( map_pid, 0 );
+    if( !valid(map) )
+    {
+        player.Say( SAY_NETMSG, "There is no map by this PID[" + map_pid + "]." );
+        return;
+    }
+
+    Location@ loc = map.GetLocation();
+    if( !valid( loc ) ) return;
+
+    Critter@[] group;
+    group.insertLast( @player );    
+
+    uint count = player.GetFollowGroup( FIND_ALL, group );
+    for( uint i = 0; i < count + 1; i++ )
+    {
+        group[i].TransitToMap( map.Id, ent_num );
+        group[i].SetWorldPos( loc.WorldX, loc.WorldY );
+    }
+}
+
+//~run dialog test_make_pet 0 0 0
+void test_make_pet( Critter& gm, int cr_id, int owner_id, int )
+{
+	Critter@ target = GetCritter( cr_id );
+	if( !valid(target) ) 
+	{ 
+		gm.Say( SAY_NETMSG, "Target #" + cr_id + " not found!" ); 
+		return; 
+	}
+	
+	if( target.IsPlayer() ) 
+	{ 
+		gm.Say( SAY_NETMSG, "It's a player, can't do that!" );
+		return;
+	}
+	
+	if( owner_id == 0 )
+	{
+		gm.Say( SAY_NETMSG, "No owner arg - setting owner as myself." );
+		owner_id = gm.Id;
+	}
+	
+	if( target.Param[ PET_OWNER_ID ] == owner_id )
+		target.ParamBase[ PET_OWNER_ID ] = 0;
+	else
+		target.ParamBase[ PET_OWNER_ID ] = owner_id;
+	
+	if( target.Stat[ ST_FOLLOW_CRIT ] == owner_id )
+		target.StatBase[ ST_FOLLOW_CRIT ] = 0;
+	else
+		target.StatBase[ ST_FOLLOW_CRIT ] = owner_id;
+	
+	GM_PetDog( target );
+}
+
+void r_MakePetFollower( Critter& player, Critter @ npc )
+{
+	npc.ParamBase[ PET_OWNER_ID ] = player.Id;
+	npc.StatBase[ ST_FOLLOW_CRIT ] = player.Id;
+	GM_PetDog( npc );	
+}
+
+bool d_isEmptySlot( Critter& player, Critter@ npc, int slot )
+{
+	return player.GetItems( slot, null ) == 0;
+}
+
+bool d_notEmptySlot( Critter& player, Critter@ npc, int slot )
+{
+	return !d_isEmptySlot( player, npc, slot );
 }
 
 #endif //DIALOG

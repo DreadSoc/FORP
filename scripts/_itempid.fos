@@ -11,6 +11,9 @@
 **************		INTERACTIVE MAP OBJECTS		***************
 ***************************************************************/
 // Desc indicator
+#define AIR_PROCESSING_UNIT							( 1843 )						// Works as switch for gas markers from its group
+
+// Desc indicator
 #define PID_DESC_MARKER 							( 848 )							// Marker for descs
 
 // Dynamic Radiation
@@ -899,6 +902,7 @@
 #define PID_M16A1                          			( 20105 )						// M16A1 Assault Rifle
 #define PID_MEX_M16                        			( 21034 )						// Mexican Assault Rifle
 #define PID_SCORPION_EVO                            ( 21046 )                       // CZ Scorpion Evo 3
+#define PID_STEN                                    ( 21048 )                       // Sten MK2
 
 //==================ITEM_SUBTYPE_WEAPON_NORMAL_SNIPER_RIFLE======================//  ( 6 )
 #define PID_SNIPER_RIFLE                      		( 143 )							// DKS-501 Sniper Rifle
@@ -946,6 +950,7 @@
 #define PID_RAVEN                            		( 21002 )						// M249 "Raven"
 #define PID_MG73                          			( 21003 )						// MG73
 #define PID_MENDOZA									( 21035 )						// Mendoza LMG
+#define PID_MG0815                                  ( 21047 )                       // MG08/15
 
 //==================ITEM_SUBTYPE_WEAPON_NORMAL_NADELAUNCHER=====================//  ( 11 )
 #define PID_ROCKET_LAUNCHER                   		( 13 )							// 
