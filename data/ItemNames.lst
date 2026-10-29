@@ -2438,6 +2438,8 @@
 21044	PID_44_COLT_REVOLVER					// Colt Revolver						 // Револьвер Кольт M1873
 21045	PID_44_COLT_REVOLVER_LONG				// Colt Revolver (lng. brl.)			 // Револьвер Кольт M1873 (удл. ствол)
 21046	PID_SCORPION_EVO						// CZ Scorpion							 // Карабин "Скорпион"
+21047   PID_MG0815                              // MG08/15                               // MG08/15
+21048   PID_STEN                                // Sten MK2                              // Sten MK2
 22000	PID_CIVIL_GAS_MASK						// Civilian Gas Mask					 // Гражданский противогаз
 22001	PID_MILITARY_CAP						// Military Cap							 // Военная фуражка
 22002	PID_ENCLAVE_OFFICER_CAP					// Enclave Officer Cap					 // Фуражка офицера Анклава
