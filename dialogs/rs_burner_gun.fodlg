@@ -1,0 +1,50 @@
+[comment]
+
+
+[data]
+lang=engl
+
+[dialog]
+&
+1 1000 None 1 #
+2 1010 D _param p KARMA_SLAVER } 1 #
+8 1020 D _param p KARMA_SLAVER = 0 @
+2 2000 None 0 @
+3 3000 None 0 @
+4 4000 None 0 @
+5 5000 None 0 @
+6 6000 None 0 @
+7 7000 None 0 @
+8 8000 None 0 @
+9 9000 None 0 @
+10 10000 None 0 @
+11 11000 None 0 &
+
+[engl]
+{100}{}{Fred Swanson}
+{200}{}{Fred Swanson}
+{210}{}{Fred Swanson smokes a cigarette and wears a leather duster}
+{1000}{}{Predialogue installations}
+{1010}{}{PC Slaver
+}
+{1020}{}{PC Slave}
+{2000}{}{The wooden house creaks as the robed man turns to face you. He lowers his hood, revealing a wrinkled, bearded face, then licks his dry lips.
+
+You’ve already taken everything from us...
+}
+{3000}{}{Hmm... my people and I still have guns. We’re not giving up our freedom that easily.}
+{4000}{}{You saw my son?! Yeah... he’s been tied up for days, ever since he started going mad. I’m afraid he’s turning into a ghoul.}
+{5000}{}{Lies! He can't be saved, he's possessed by the devil himself now.}
+{6000}{}{The man strokes his beard and gazes out of the window.
+
+I’ll go with you and convince my people to come along, but my son stays here. That is, if you can really do what you claim.}
+{7000}{}{I’m Lenny. We settled here a couple of years ago and have been making a living by scavenging. We’ve been paying our cut to you Centrals ever since.}
+{8000}{}{The wooden house creaks as the robed man turns to face you. He lowers his hood, revealing a wrinkled, bearded face, then licks his dry lips.
+
+Who are you?
+}
+{9000}{}{Well I be damned. I talked to my son and he's lucid. You've made something impossible.
+}
+{10000}{}{The deal? Well, I thought about it and I'll let you take some people. I am gonna tell them that you guys take them back to trade.}
+{11000}{}{I can't go! Look, I just got my son back. I need time to reconnect withg him.}
+

@@ -1,0 +1,134 @@
+[comment]
+
+
+[data]
+lang=help
+
+[dialog]
+&
+1 1000 None 1 #
+22 1010 D _var p mark_quest } 2 #
+8 1020 D _script DTO@b_lMOREm 2 1 1 D _param p KARMA_SLAVER } 1 D _var p mark_quest = 1 #
+21 1030 D _script DTO@b_lMOREm 2 1 1 #
+2 1040 D _param p KARMA_SLAVER } 1 #
+18 1050 D _param p KARMA_SLAVER { 0 @
+2 2000 None 0 #
+3 2010 #
+65507 2020 @
+3 3000 None 0 #
+65507 3010 #
+4 3020 @
+4 4000 None 0 #
+5 4010 #
+65507 4020 #
+13 4030 @
+5 5000 None 0 #
+6 5010 #
+65507 5020 @
+6 6000 None 0 #
+7 6010 #
+65507 6020 @
+7 7000 None 0 #
+17 7010 D _script dialog@d_notEmptySlot 1 1 R _script DTO@r_lSETm 2 1 5 R _var p mark_quest = 1 #
+10 7020 #
+65507 7030 @
+8 8000 None 0 #
+65507 8010 R _script 1_dialogs@dead_1 0  R _var p mark_quest = 4 #
+9 8020 @
+9 9000 None 0 #
+0 9010 @
+10 10000 None 0 #
+11 10010 #
+12 10020 @
+11 11000 Attack 0 @
+12 12000 Attack 0 #
+9 12010 D _param p ST_CHARISMA > 7 #
+13 12020 #
+14 12030 #
+65507 12040 @
+13 13000 Attack 0 @
+14 14000 Attack 0 #
+15 14010 D _param p ST_INTELLECT > 7 R _var p mark_quest = 3 #
+65507 14020 #
+16 14030 R _var p mark_quest = 2 @
+15 15000 Attack 0 #
+0 15010 @
+16 16000 Attack 0 #
+0 16010 @
+17 17000 None 0 @
+18 18000 None 1 #
+19 18010 #
+0 18020 @
+19 19000 None 1 #
+20 19010 D _param p ST_CHARISMA } 6 R _script DTO@r_gSETm 2 15 60 #
+0 19020 @
+20 20000 None 0 #
+0 20010 @
+21 21000 None 0 #
+0 21010 @
+22 22000 None 0 &
+
+[help]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{Defeated}
+{1020}{}{Slaver Points Gun}
+{1030}{}{Pointed Gun}
+{1040}{}{Slaver}
+{1050}{}{Slave}
+{2000}{}{Are you slavers? [ The man who you are guessing is the sheriff looks at you closely. ]}
+{2010}{}{Yes we are.}
+{2020}{}{Time to die.}
+{3000}{}{Just know we won't go down without a bloodly fight.}
+{3010}{}{As expected. [Draw weapon]}
+{3020}{}{Maybe, but I've heard a thing or two about your town.}
+{4000}{}{Heard what? [ The sheriff lowers his guard for a second. ]}
+{4010}{}{I heard you folks are running out of food, is that true?}
+{4020}{}{I've heard you're all gonna die by my hands!}
+{4030}{}{I've heard you're desperate... Out of survival options.}
+{5000}{}{H-how do you know that?.. [ The sheriff looked fairly shocked losing his composure. ]}
+{5010}{}{Because we had some men knock off the town that was helping you awhile back.}
+{5020}{}{Uhh.. I don't know.}
+{6000}{}{Are you trying to strike us down while we're weak? We don't have food but we have plenty of bullets, you fuck!}
+{6010}{}{You got me all wrong, I've come to give you food in exchange for a few slaves.}
+{6020}{}{Yes we have, c'mon men lets kill them!}
+{7000}{}{Why the fuck should we trust you or take up that offer in the first place if you're the one causing the damn food shortage!?}
+{7010}{}{You shouldn't [ Point your weapon at the man's head. ]}
+{7020}{}{Cause if you don't we have enough fire power to take down this shit stain of a town, but I'd rather not waste ammo.}
+{7030}{}{Enough of this, lets kill these shitheads!}
+{8000}{}{[ The man and the people around him would flinch, preparing to defend themselves. ] Oh shit-}
+{8010}{}{[Shoot ]}
+{8020}{}{But what choice do you have?}
+{9000}{}{Damn it, fine.. My guards will maybe kill a few of you and then you'll enslave all of the town instead of just some of it. Take your pick you freaks..}
+{9010}{}{Glad we came to an agreement.}
+{10000}{}{If this town is so shit, why do you want some of us as slaves?}
+{10010}{}{For fun you little prick.}
+{10020}{}{Because I doubt every one of you are worthless like you, I have an eye for potential and I'll pick who is worth taking.}
+{11000}{}{You are doing this for fun!? That's it, we're gonna die trying or kill you sons of bitches!}
+{12000}{}{Well, shit.. What about after you give us the food? I want this arrangement to be temporary, not constantly slaving my people away hoping some people finally kill you freaks.}
+{12010}{}{I've already given you a good enough offer, you'll accept it or die.}
+{12020}{}{Damn, I- uh.. Already given you, your options and you can either take them or uh.. Or fucking leave them!}
+{12030}{}{Well, Uh, we could given you some farming supplies and the food, how about that?}
+{12040}{}{Ugh, I've had enough of this, eat lead!}
+{13000}{}{Well, fuck you and your options you fucking asshat!}
+{14000}{}{How about some hunting supplies too, I don't think just farming supplies will be enough.}
+{14010}{}{Erm, actually.. I think farming supplies would be more than enough to feed the rest of your town after we take some slaves.}
+{14020}{}{Nah, I think we'll just kill you.}
+{14030}{}{Fine, we'll give you the food, the farming supplies and the hunting supplies but this better be worth it.}
+{15000}{}{Fine, we'll just take the farming supplies and the food. All the sla...people you need to take, are ready. [ The sheriff lowers his weapons, you could see a look of disgust on his face, you can't tell if he's disgusted at you or himself. ]}
+{15010}{}{About damn time.}
+{16000}{}{Alright.. I'll assign some people to come with you. [ The sheriff looked down towards the ground, hiding his face. ]}
+{16010}{}{Took long enough.}
+{17000}{}{*the slaver points a weapon at the sheriff's head* shit}
+{18000}{}{Who are you? [ The man who you are guessing is the sheriff looks at you closely. ]}
+{18010}{}{I escaped the Burner.}
+{18020}{}{No one.}
+{19000}{}{Look, we have enough attention from these fuckers.}
+{19010}{}{You gotta help me somehow.}
+{19020}{}{Cowards.}
+{20000}{}{Hm, alright. Talk to Sullivan, he can take you further north. Wyoming border. But you can't stay here.}
+{20010}{}{Thanks, sheriff.}
+{21000}{}{[The gun is pointed at the sheriff's head]}
+{21010}{}{[Leave]}
+{22000}{}{Please leave town. We've made a deal.}
+

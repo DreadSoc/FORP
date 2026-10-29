@@ -1,0 +1,52 @@
+[comment]
+
+
+[data]
+lang=engl
+
+[dialog]
+&
+1 1000 None 1 #
+2 1010 D _param p ST_PERCEPTION { 6 #
+3 1020 D _param p ST_PERCEPTION } 7 @
+2 2000 None 0 #
+0 2010 @
+3 3000 None 1 #
+5 3010 #
+0 3020 @
+4 4000 None 1 #
+6 4010 D _item p PID_BOWL } 4 R _item p PID_NITROGLYCERIN + 1 R _item p PID_BOWL - 4 R _param p ST_EXPERIENCE + 300 #
+6 4020 D _item p PID_REAL_BOTTLE_CAPS } 3 R _item p PID_ELECTRONIC_PARTS + 1 R _item p PID_REAL_BOTTLE_CAPS - 3 R _param p ST_EXPERIENCE + 300 #
+6 4030 D _item p PID_REAL_BOTTLE_CAPS } 5 R _item p PID_REAL_BOTTLE_CAPS - 5 R _param p ST_EXPERIENCE + 400 R _item p PID_CRAFT_E_LAMP + 1 #
+0 4040 @
+5 5000 None 0 #
+4 5010 @
+6 6000 None 0 &
+
+[engl]
+{100}{}{Fred Swanson}
+{200}{}{Fred Swanson}
+{210}{}{Fred Swanson smokes a cigarette and wears a leather duster}
+{1000}{}{Predialogue installations}
+{1010}{}{PC Regular}
+{1020}{}{PC Per}
+{2000}{}{A young woman in a jumpsuit works at the stamping machine. She looks up at you.
+
+What?}
+{2010}{}{Nothing.}
+{3000}{}{A young woman in a Vault jumpsuit works at the stamping machine. She looks up at you.
+
+What?}
+{3010}{}{Are you from the vault?}
+{3020}{}{Nothing.}
+{4000}{}{Hm, I can get you a nitroglycerin for 4 clean bowls or electronic trash for 3 bottle caps. Radio parts for 5 bottle caps.}
+{4010}{}{Nitroglycerin.}
+{4020}{}{Electronic trash.}
+{4030}{}{Radio Parts.}
+{4040}{}{Later.}
+{5000}{}{She sighs and sets her tools aside.
+
+They emptied the whole vault and sold most of my people. I managed to stay behind here — for better or worse.}
+{5010}{}{I'm sorry. I'm trying to find a way out, maybe you can help me with a few things?}
+{6000}{}{**passes an item to you**}
+

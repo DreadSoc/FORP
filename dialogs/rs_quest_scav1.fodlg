@@ -1,0 +1,106 @@
+[comment]
+
+
+[data]
+lang=engl
+
+[dialog]
+&
+1 1000 None 1 #
+16 1010 D _var p harvy_quest = 4 #
+2 1020 D _param p KARMA_SLAVER } 1 #
+8 1030 D _param p KARMA_SLAVER = 0 @
+2 2000 None 1 #
+7 2010 D _script DTO@b_uLESS 2 2 1 R _script DTO@r_uSETm 2 2 999 #
+12 2020 D _script DTO@b_gLESS 2 10 1 #
+3 2030 D _script DTO@b_gLESS 2 11 1 #
+9 2040 D _script DTO@b_gMOREm 2 12 5 R _var p harvy_quest = 3 #
+0 2050 @
+3 3000 None 1 #
+65507 3010 #
+4 3020 D _var p harvy_quest = 1 @
+4 4000 None 0 #
+5 4010 @
+5 5000 None 0 #
+6 5010 @
+6 6000 None 1 #
+0 6010 #
+65507 6020 @
+7 7000 None 1 #
+12 7010 D _script DTO@b_gLESS 2 10 1 #
+14 7020 @
+8 8000 None 0 #
+15 8010 @
+9 9000 None 0 #
+10 9010 @
+10 10000 None 0 #
+11 10010 R _script DTO@r_gSETm 2 14 9999 @
+11 11000 None 0 #
+13 11010 R _script DTO@r_gSETm 2 10 999 R _item p PID_CRAFT_E_CHIP + 2 R _item p PID_IRON_PARTS + 6 R _item p PID_ELECTRONIC_PARTS + 8 @
+12 12000 None 0 #
+13 12010 R _script DTO@r_gSETm 2 10 999 R _item p PID_CRAFT_E_CHIP + 2 R _item p PID_IRON_PARTS + 6 R _item p PID_MINERAL + 2 @
+13 13000 None 0 #
+0 13010 @
+14 14000 None 0 #
+2 14010 @
+15 15000 None 0 #
+0 15010 @
+16 16000 None 0 &
+
+[engl]
+{100}{}{Fred Swanson}
+{200}{}{Fred Swanson}
+{210}{}{Fred Swanson smokes a cigarette and wears a leather duster}
+{1000}{}{Predialogue installations}
+{1010}{}{PC Son Dead}
+{1020}{}{PC Slaver
+}
+{1030}{}{PC Slave}
+{2000}{}{The wooden house creaks as the robed man turns to face you. He lowers his hood, revealing a wrinkled, bearded face, then licks his dry lips.
+
+You’ve already taken everything from us...}
+{2010}{}{Who are you?}
+{2020}{}{We need more.}
+{2030}{}{We need slaves.}
+{2040}{}{We fixed your son.}
+{2050}{}{Nothing.}
+{3000}{}{Hmm... my people and I still have guns. We’re not giving up our freedom that easily.}
+{3010}{}{Let's see about that.}
+{3020}{}{I saw your son...}
+{4000}{}{Yeah... he’s been tied up for days, ever since he started going mad. I’m afraid he’s turning into a ghoul.}
+{4010}{}{We can save him.}
+{5000}{}{Lies! He can't be saved, he's possessed by the devil himself now.}
+{5010}{}{Reverse ghouilification? EASY.}
+{6000}{}{The man strokes his beard and gazes out of the window.
+
+I’ll go with you and convince my people to come along, but my son stays here. That is, if you can really do what you claim.}
+{6010}{}{Deal.}
+{6020}{}{Nah, it's just easier to take you by force.}
+{7000}{}{I’m Lenny. We settled here a couple of years ago and have been making a living by scavenging. We’ve been paying our cut to you Centrals ever since.}
+{7010}{}{Time to pay again.}
+{7020}{}{Centrals?}
+{8000}{}{The wooden house creaks as the robed man turns to face you. He lowers his hood, revealing a wrinkled, bearded face, then licks his dry lips.
+
+Who are you?
+}
+{8010}{}{I need shelter.}
+{9000}{}{Well I be damned. I talked to my son and he's lucid. You've made something impossible.
+}
+{9010}{}{Let's get back to our deal.}
+{10000}{}{The deal? Well, I thought about it and I'll let you take some people. I told Jason and his people that you guys gonna take them back to trade. The rest is on you...}
+{10010}{}{Sending your people? You said you gonna walk yourself.}
+{11000}{}{I can't go! Look, I just got my son back. I need time to reconnect with him.}
+{11010}{}{Alright, then we need more materials.}
+{12000}{}{The man shakes his head and spreads his arms.
+
+This is insane. I can sell you some scrap, but we paid your people their cut recently.}
+{12010}{}{Alright, give it up then.}
+{13000}{}{He sighs and pulls a box filled with scrap from beneath the table.
+All right, fine. That’s all we’ve got for now.}
+{13010}{}{Good.}
+{14000}{}{Yeah, you people from Rado and Dog Town. Slavers, mercenaries and "businessmen".}
+{14010}{}{Yes, that's us.}
+{15000}{}{Look, if you escaped Rado, I'd rather you stay away from here. We have enough problems with you Centrals.}
+{15010}{}{Cowards.}
+{16000}{}{My son is dead. I'm done talking to you.}
+

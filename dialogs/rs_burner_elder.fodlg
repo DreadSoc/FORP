@@ -1,0 +1,55 @@
+[comment]
+
+
+[data]
+lang=engl
+
+[dialog]
+&
+1 1000 None 1 #
+2 1010 R _var p loyality = 0 #
+4 1020 D _var p loyality = 1 @
+2 2000 None 0 #
+3 2010 @
+3 3000 None 0 #
+4 3010 R _var p loyality = 1 @
+4 4000 None 1 #
+5 4010 D _item p PID_XANDER_ROOT } 2 R _item p PID_XANDER_ROOT - 2 R _item p PID_IRON_PARTS + 1 R _param p ST_EXPERIENCE + 300 #
+5 4020 D _item p PID_BROC_FLOWER } 2 R _item p PID_BROC_FLOWER - 2 R _item p PID_KNIFE + 1 R _param p ST_EXPERIENCE + 300 #
+5 4030 D _item p PID_PEYOTE } 1 R _param p ST_EXPERIENCE + 300 R _item p PID_LOCKPICKS + 1 R _item p PID_PEYOTE - 1 #
+5 4040 D _item p PID_MUSH_LOW } 2 R _param p ST_EXPERIENCE + 300 R _item p PID_MUSH_LOW - 2 R _item p PID_JET + 1 #
+5 4050 D _item p PID_MURAVNIKTAR } 1 R _param p ST_EXPERIENCE + 300 R _item p PID_MURAVNIKTAR - 1 R _item p PID_ZIP_GUN + 1 #
+0 4060 @
+5 5000 None 0 #
+4 5010 @
+6 6000 None 0 &
+
+[engl]
+{100}{}{Fred Swanson}
+{200}{}{Fred Swanson}
+{210}{}{Fred Swanson smokes a cigarette and wears a leather duster}
+{1000}{}{Predialogue installations}
+{1010}{}{PC Regular}
+{1020}{}{PC Barter}
+{2000}{}{An old woman lies down on the mattress with her eyes closed.
+
+My name is Faith. Welcome to Manholder. Quite sexist name in my opinion, but here we go.}
+{2010}{}{Does it really matter?}
+{3000}{}{I was taken to the Burner 30 years ago. This is my home now and from today it's also yours.}
+{3010}{}{It is true... Let's trade?}
+{4000}{}{I can barter a few nice things if you got any herbs. I need them for medicine.
+2 x Xander Root for Iron Parts
+2 x Broc Flowers for Knife
+1 x Peyote for Lockpick
+2 x Mushrooms for Jet
+1 x Any Nectar  for Zip Gun }
+{4010}{}{[Give Xander Roots]}
+{4020}{}{[Give Broc Flowers]}
+{4030}{}{[Give Peyote]}
+{4040}{}{[Give Mushrooms]}
+{4050}{}{[Give Ant Nectar]}
+{4060}{}{[Leave]}
+{5000}{}{Anything else?}
+{5010}{}{Yes}
+{6000}{}{See ya around.}
+

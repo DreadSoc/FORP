@@ -1,0 +1,60 @@
+[comment]
+
+
+[data]
+lang=engl
+
+[dialog]
+&
+1 1000 None 1 #
+2 1010 D _param n CR_ROLL = 0 #
+9 1020 D _param n CR_ROLL } 1 D _param n CR_ROLL { 70 R _script DTO@r_gSETm 2 12 9999 #
+10 1030 D _param n CR_ROLL } 71 R _script 1_dialogs@dead_1 0  R _script DTO@r_gSETm 2 13 9999 @
+2 2000 None 0 #
+3 2010 R _script dialog@r_bleed_player 1 10 R _script 1_dialogs@player_knock_100 0  #
+4 2020 D _param p ST_INTELLECT > 5 @
+3 3000 None 0 @
+4 4000 None 0 #
+5 4010 R _var p harvy_quest = 1 @
+5 5000 None 0 #
+6 5010 @
+6 6000 None 0 #
+7 6010 D _item p PID_PSYCHO } 1 D _item p PID_BUFFOUT } 1 D _item p PID_MENTATS } 1 D _item p PID_JET } 1 R _item p PID_BUFFOUT - 1 R _item p PID_JET - 1 R _item p PID_MENTATS - 1 R _item p PID_PSYCHO - 1 R _script 1_dialogs@npc_roll 0  #
+8 6020 D _param p SK_DOCTOR } 100 @
+7 7000 None 0 @
+8 8000 None 0 #
+0 8010 @
+9 9000 None 0 #
+0 9010 @
+10 10000 None 0 &
+
+[engl]
+{100}{}{Fred Swanson}
+{200}{}{Fred Swanson}
+{210}{}{Fred Swanson smokes a cigarette and wears a leather duster}
+{1000}{}{Predialogue installations}
+{1010}{}{NPC Turning}
+{1020}{}{NPC Lucid}
+{1030}{}{NPC Dies}
+{2000}{}{A very sickly young man is tied up to a bed. Some of his skin looks burnt, in some places his flesh is exposed.}
+{2010}{}{[Touch him]}
+{2020}{}{[Click fingers in front of a man's face]}
+{3000}{}{*bites your hand*}
+{4000}{}{The man notices your hand and his gaze follows it.}
+{4010}{}{Hey. can you talk?}
+{5000}{}{The man twittches and growls, but then answers with a whiz.
+
+I'm Will. Lenny's son... I need help...They [GROWLS].. Tell me to.. Grrg!}
+{5010}{}{I am gonna help you.}
+{6000}{}{*growls and hisses*}
+{6010}{}{[Inject a special mixture]}
+{6020}{}{[Carefully assess the patient]}
+{7000}{}{*growls and falls asleep*}
+{8000}{}{Studying his condition, you concluded that the patient is gone. His brain tissue is most likely too corroded to restore through a simple surgery. An extensive autodoc-powered curing process would take months and waste too much biogel for the slavers to accept it. Another option is inject him with a mixture of Psycho, Mentats, Jet & Buffour, that would bring him back for a couple days. Of course, it's gonna worsen the general situation.}
+{8010}{}{[Leave]}
+{9000}{}{A tied up young man twitches, but now his gaze is focused. He seems lucid.
+
+Thank you. This actually helped me. I feel much better.}
+{9010}{}{You're welcome, kid.}
+{10000}{}{*suffers cardiac arrest*}
+

@@ -1,0 +1,60 @@
+[comment]
+
+
+[data]
+lang=engl
+
+[dialog]
+&
+1 1000 None 1 #
+9 1010 D _param p REPUTATION_DEN } 4 #
+2 1020 @
+2 2000 None 0 #
+3 2010 R _param p REPUTATION_DEN = 0 @
+3 3000 None 0 #
+4 3010 D _param p ST_INTELLECT > 3 R _param p REPUTATION_DEN + 1 #
+4 3020 @
+4 4000 None 0 #
+5 4010 R _param p REPUTATION_DEN + 1 #
+5 4020 @
+5 5000 None 0 #
+6 5010 D _param p REPUTATION_DEN = 0 R _param p REPUTATION_DEN = 4 #
+7 5020 D _param p REPUTATION_DEN } 1 D _param p SK_SCIENCE { 99 D _param p SK_REPAIR { 99 D _param p SK_CRAFT { 99 D _param p SK_DOCTOR { 99 R _param p REPUTATION_DEN = 5 #
+8 5030 D _param p REPUTATION_DEN = 2 D _param p SK_SCIENCE } 100 D or D _param p REPUTATION_DEN = 2 D _param p SK_REPAIR } 100 D or D _param p REPUTATION_DEN = 2 D _param p SK_CRAFT } 100 D or D _param p REPUTATION_DEN = 2 D _param p SK_DOCTOR } 100 R _param p REPUTATION_DEN = 6 @
+6 6000 None 0 @
+7 7000 None 0 @
+8 8000 None 0 @
+9 9000 None 0 &
+
+[engl]
+{100}{}{Fred Swanson}
+{200}{}{Fred Swanson}
+{210}{}{Fred Swanson smokes a cigarette and wears a leather duster}
+{1000}{}{Predialogue installations}
+{1010}{}{PC Assessed}
+{1020}{}{PC Regular}
+{2000}{}{An exhausted, scrawny old man sits at the table in the depleted classroom, his shoulders hunched and his posture painfully slouched. Harsh light from the window catches him as he pushes his glasses back up his nose.
+
+Ready for the assesment?}
+{2010}{}{Yes.}
+{3000}{}{He picks up one of the books, flips a few pages and points at some lines.
+
+Read it out for me please.}
+{3010}{}{[Read out the lines]}
+{3020}{}{I can't.}
+{4000}{}{He nods.
+
+Now tell me when did the Resource Wars start?}
+{4010}{}{2052}
+{4020}{}{2062}
+{5000}{}{He nods again and goes to the bookshelf. He gets some kind of a scanner from there and points it at you.
+
+Stay still now.}
+{5010}{}{Stay still.}
+{5020}{}{Stay still.}
+{5030}{}{Stay still.}
+{6000}{}{<<FULL ON RETARD>>**shows scanner**}
+{7000}{}{<<NORMAL>>**shows scanner**}
+{8000}{}{<<SMART>>**shows scanner**}
+{9000}{}{I've already assessed you.}
+

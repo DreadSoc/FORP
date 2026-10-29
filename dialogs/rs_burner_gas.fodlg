@@ -1,0 +1,64 @@
+[comment]
+
+
+[data]
+lang=engl
+
+[dialog]
+&
+1 1000 None 1 #
+4 1010 D _script DTO@b_uMOREm 2 2 1 D _param p KARMA_SLAVER = 0 #
+2 1020 D _param p KARMA_SLAVER = 0 #
+7 1030 D _param p KARMA_SLAVER } 1 @
+2 2000 None 1 #
+3 2010 D _script DTO@b_lLESSm 2 1 1 R _script DTO@r_uSETm 2 2 9999 #
+0 2020 @
+3 3000 None 1 #
+4 3010 #
+5 3020 @
+4 4000 None 1 #
+4 4010 D _item p PID_MICRO_FUSION_CELL } 500 D _item n PID_MICRO_FUSION_CELL < 1499 R _item p PID_MICRO_FUSION_CELL - 500 R _item n PID_MICRO_FUSION_CELL + 500 R _param p ST_EXPERIENCE + 400 #
+4 4020 D _item p PID_COAL } 10 D _item n PID_COAL < 29 R _item p PID_COAL - 10 R _item n PID_COAL + 10 R _param p ST_EXPERIENCE + 400 #
+4 4030 D _item p PID_MINERAL } 5 D _item n PID_MINERAL < 14 R _item p PID_MINERAL - 5 R _item n PID_MINERAL + 5 R _param p ST_EXPERIENCE + 400 #
+0 4040 #
+6 4050 D _item n PID_MINERAL } 15 D _item n PID_MICRO_FUSION_CELL } 1500 D _item n PID_COAL } 30 R _script DTO@r_lSETm 2 1 10 @
+5 5000 None 0 @
+6 6000 None 0 @
+7 7000 None 0 #
+8 7010 D _script DTO@b_uLESSm 2 1 1 D _script DTO@b_lMOREm 2 1 1 R _script DTO@r_uSETm 2 1 10 R _item n PID_MICRO_FUSION_CELL - 500 R _item n PID_MINERAL - 15 R _item n PID_COAL - 30 R _param p ST_EXPERIENCE + 1000 #
+0 7020 @
+8 8000 None 0 &
+
+[engl]
+{100}{}{Fred Swanson}
+{200}{}{Fred Swanson}
+{210}{}{Fred Swanson smokes a cigarette and wears a leather duster}
+{1000}{}{Predialogue installations}
+{1010}{}{PC Slave Known}
+{1020}{}{PC Slave}
+{1030}{}{PC Slaver}
+{2000}{}{A middle-aged man with long hair and a Poseidon Oil cap naps in a folding chair. Several buggies, jeeps and motorcycles are parked around the petrol station. He wakes, stretches and looks over at you.
+
+Ready for work?}
+{2010}{}{Yes.}
+{2020}{}{No}
+{3000}{}{I need you to recharge all the vehicles over here and then load them up with cargo.
+
+Go to the Vault Mart, get upstairs and find all the MFCs and ores. We need quite a few, so carry them in rounds.}
+{3010}{}{I've got something.}
+{3020}{}{Okay,}
+{4000}{}{What have you got?}
+{4010}{}{Here are 500 batteries.}
+{4020}{}{Here are 10 coal ores.}
+{4030}{}{Here are 5 minerals.}
+{4040}{}{I will be back.}
+{4050}{}{It's all done.}
+{5000}{}{Chop-chop! @@ Get to work. @@ Move! *claps*}
+{6000}{}{**vehicles drives away** Good job.}
+{7000}{}{A middle-aged man with long hair and a Poseidon Oil cap naps in a folding chair. Several buggies, jeeps and motorcycles are parked around the petrol station. He wakes, stretches and looks over at you.
+
+Once slavers finish filling up, I'll give you a cut for the captain.}
+{7010}{}{It's time to pay.}
+{7020}{}{Okay}
+{8000}{}{These are good slaves. Good job. Here, give it to boss.}
+

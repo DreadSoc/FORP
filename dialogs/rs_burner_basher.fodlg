@@ -1,0 +1,30 @@
+[comment]
+
+
+[data]
+lang=engl
+
+[dialog]
+&
+1 1000 None 1 #
+2 1010 @
+2 2000 None 0 #
+3 2010 @
+3 3000 None 0 #
+4 3010 D _param p ST_CHARISMA { 5 #
+65506 3020 D _param p ST_CHARISMA } 6 @
+4 4000 None 0 &
+
+[engl]
+{100}{}{Fred Swanson}
+{200}{}{Fred Swanson}
+{210}{}{Fred Swanson smokes a cigarette and wears a leather duster}
+{1000}{}{Predialogue installations}
+{1010}{}{PC Regular}
+{2000}{}{A man with a bowl cut sits with his legs planted wide, leaning forward with his elbows near his knees. His fingers are interlocked between his thighs, his shoulders slightly rounded, and his eyes fixed straight ahead in a quiet, guarded stare.}
+{2010}{}{Who are you?}
+{3000}{}{I'm Basher. The king of arena.}
+{3010}{}{I bet you got some good stuff from arena. Let's trade.}
+{3020}{}{I bet you got some good stuff from arena. Let's trade.}
+{4000}{}{I don't trade with people like you.}
+
