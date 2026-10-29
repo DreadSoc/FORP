@@ -2,8 +2,8 @@
 Version              4
 MaxHexX              400
 MaxHexY              400
-WorkHexX             191
-WorkHexY             126
+WorkHexX             176
+WorkHexY             114
 ScriptModule         -
 ScriptFunc           -
 NoLogOut             0
@@ -3353,7 +3353,7 @@ roof       173  122            art\tiles\yrf1001.frm
 tile       174  122            art\tiles\mstrflr1.frm
 roof       175  122            art\tiles\yrf1000.frm
 tile       176  122            art\tiles\mstrflr1.frm
-tile       178  122            art\tiles\mstrflr1.frm
+tile       178  122            art\tiles\edg3000.frm
 tile_l     180  122          3 art\tiles\metflc01.frm
 tile       182  122            art\tiles\vtgsl009.frm
 tile       184  122            art\tiles\vtgsl014.frm
@@ -3456,8 +3456,8 @@ tile       114  124            art\tiles\vtgsl009.frm
 tile       116  124            art\tiles\vtgsl014.frm
 tile_l     118  124          3 art\tiles\metflc01.frm
 tile       120  124            art\tiles\mstrflr1.frm
-tile       122  124            art\tiles\mstrflr1.frm
-tile       124  124            art\tiles\mstrflr1.frm
+tile       122  124            art\tiles\edg2001.frm
+tile       124  124            art\tiles\edg2000.frm
 tile       126  124            art\tiles\mstrflr1.frm
 tile       128  124            art\tiles\mstrflr1.frm
 tile       130  124            art\tiles\mstrflr1.frm
@@ -3600,8 +3600,8 @@ tile       114  126            art\tiles\vtgsl010.frm
 tile       116  126            art\tiles\vtgsl013.frm
 tile_l     118  126          3 art\tiles\metflc02.frm
 tile       120  126            art\tiles\mstrflr1.frm
-tile       122  126            art\tiles\mstrflr1.frm
-tile       124  126            art\tiles\mstrflr1.frm
+tile       122  126            art\tiles\edg3000.frm
+tile       124  126            art\tiles\edg6004.frm
 tile       126  126            art\tiles\mstrflr1.frm
 tile       128  126            art\tiles\mstrflr1.frm
 tile       130  126            art\tiles\mstrflr1.frm
@@ -4232,10 +4232,10 @@ tile       142  134            art\tiles\mstrflr1.frm
 roof       143  134            art\tiles\yrf1007.frm
 tile       144  134            art\tiles\mstrflr1.frm
 tile       146  134            art\tiles\mstrflr1.frm
-tile       148  134            art\tiles\mstrflr1.frm
-tile       150  134            art\tiles\mstrflr1.frm
-tile       152  134            art\tiles\mstrflr1.frm
-tile       154  134            art\tiles\mstrflr1.frm
+tile       148  134            art\tiles\edg2003.frm
+tile       150  134            art\tiles\edg2002.frm
+tile       152  134            art\tiles\edg2001.frm
+tile       154  134            art\tiles\edg2000.frm
 tile       156  134            art\tiles\mstrflr1.frm
 tile       158  134            art\tiles\mstrflr1.frm
 tile       160  134            art\tiles\mstrflr1.frm
@@ -4378,10 +4378,10 @@ tile       142  136            art\tiles\mstrflr1.frm
 roof       143  136            art\tiles\yrf1012.frm
 tile       144  136            art\tiles\mstrflr1.frm
 tile       146  136            art\tiles\mstrflr1.frm
-tile       148  136            art\tiles\mstrflr1.frm
-tile       150  136            art\tiles\mstrflr1.frm
-tile       152  136            art\tiles\mstrflr1.frm
-tile       154  136            art\tiles\mstrflr1.frm
+tile       148  136            art\tiles\edg6005.frm
+tile       150  136            art\tiles\edg3000.frm
+tile       152  136            art\tiles\edg3000.frm
+tile       154  136            art\tiles\edg6004.frm
 tile       156  136            art\tiles\mstrflr1.frm
 tile       158  136            art\tiles\mstrflr1.frm
 tile       160  136            art\tiles\mstrflr1.frm
@@ -4524,10 +4524,10 @@ roof       141  138            art\tiles\yrf1013.frm
 tile       142  138            art\tiles\mstrflr1.frm
 tile       144  138            art\tiles\mstrflr1.frm
 tile       146  138            art\tiles\mstrflr1.frm
-tile       148  138            art\tiles\mstrflr1.frm
-tile       150  138            art\tiles\mstrflr1.frm
-tile       152  138            art\tiles\mstrflr1.frm
-tile       154  138            art\tiles\mstrflr1.frm
+tile       148  138            art\tiles\edg6011.frm
+tile       150  138            art\tiles\edg1000.frm
+tile       152  138            art\tiles\edg1001.frm
+tile       154  138            art\tiles\edg6007.frm
 tile       156  138            art\tiles\mstrflr1.frm
 tile       158  138            art\tiles\mstrflr1.frm
 tile       160  138            art\tiles\mstrflr1.frm
@@ -5263,8 +5263,8 @@ tile       168  148            art\tiles\mstrflr1.frm
 tile       170  148            art\tiles\mstrflr1.frm
 tile       172  148            art\tiles\mstrflr1.frm
 tile       174  148            art\tiles\mstrflr1.frm
-tile       176  148            art\tiles\mstrflr1.frm
-tile       178  148            art\tiles\mstrflr1.frm
+tile       176  148            art\tiles\edg2001.frm
+tile       178  148            art\tiles\edg2000.frm
 tile_l     180  148          3 art\tiles\metflc02.frm
 tile       182  148            art\tiles\vtgsl009.frm
 tile       184  148            art\tiles\vtgsl014.frm
@@ -5403,8 +5403,8 @@ tile       168  150            art\tiles\mstrflr1.frm
 tile       170  150            art\tiles\mstrflr1.frm
 tile       172  150            art\tiles\mstrflr1.frm
 tile       174  150            art\tiles\mstrflr1.frm
-tile       176  150            art\tiles\mstrflr1.frm
-tile       178  150            art\tiles\mstrflr1.frm
+tile       176  150            art\tiles\edg3000.frm
+tile       178  150            art\tiles\edg6004.frm
 tile_l     180  150          3 art\tiles\metflc03.frm
 tile       182  150            art\tiles\vtgsl010.frm
 tile       184  150            art\tiles\vtgsl014.frm
@@ -19637,27 +19637,6 @@ OffsetY              5
 Scenery_SpriteCut    2
 
 MapObjType           2
-ProtoId              9379
-MapX                 194
-MapY                 125
-OffsetY              5
-Scenery_SpriteCut    2
-
-MapObjType           2
-ProtoId              9378
-MapX                 194
-MapY                 126
-OffsetY              5
-Scenery_SpriteCut    2
-
-MapObjType           2
-ProtoId              9379
-MapX                 194
-MapY                 127
-OffsetY              5
-Scenery_SpriteCut    1
-
-MapObjType           2
 ProtoId              9398
 MapX                 194
 MapY                 128
@@ -22613,11 +22592,6 @@ MapX                 139
 MapY                 138
 
 MapObjType           2
-ProtoId              2206
-MapX                 124
-MapY                 127
-
-MapObjType           2
 ProtoId              2212
 MapX                 174
 MapY                 143
@@ -23010,8 +22984,8 @@ MapY                 135
 
 MapObjType           2
 ProtoId              3253
-MapX                 175
-MapY                 148
+MapX                 174
+MapY                 147
 
 MapObjType           2
 ProtoId              3253
@@ -24306,11 +24280,6 @@ MapX                 182
 MapY                 157
 
 MapObjType           2
-ProtoId              5510
-MapX                 182
-MapY                 158
-
-MapObjType           2
 ProtoId              5508
 MapX                 182
 MapY                 159
@@ -24324,11 +24293,6 @@ MapObjType           2
 ProtoId              5508
 MapX                 182
 MapY                 161
-
-MapObjType           2
-ProtoId              5510
-MapX                 182
-MapY                 162
 
 MapObjType           2
 ProtoId              5508
@@ -24384,11 +24348,6 @@ MapObjType           2
 ProtoId              5507
 MapX                 182
 MapY                 141
-
-MapObjType           2
-ProtoId              5510
-MapX                 182
-MapY                 142
 
 MapObjType           2
 ProtoId              5508
@@ -24474,11 +24433,6 @@ MapObjType           2
 ProtoId              5510
 MapX                 182
 MapY                 138
-
-MapObjType           2
-ProtoId              5510
-MapX                 182
-MapY                 122
 
 MapObjType           2
 ProtoId              5507
@@ -26901,11 +26855,6 @@ MapY                 136
 
 MapObjType           2
 ProtoId              1623
-MapX                 114
-MapY                 115
-
-MapObjType           2
-ProtoId              1623
 MapX                 174
 MapY                 113
 
@@ -28756,11 +28705,6 @@ ProtoId              1624
 MapX                 152
 MapY                 127
 
-MapObjType           1
-ProtoId              1647
-MapX                 152
-MapY                 128
-
 MapObjType           2
 ProtoId              5952
 MapX                 152
@@ -30202,17 +30146,12 @@ MapY                 121
 OffsetX              2
 OffsetY              2
 Item_Val1            60
-Item_Val2            2
+Item_Val2            3
 
 MapObjType           2
 ProtoId              10050
 MapX                 157
 MapY                 120
-
-MapObjType           2
-ProtoId              22959
-MapX                 186
-MapY                 114
 
 MapObjType           2
 ProtoId              22959
@@ -30233,11 +30172,6 @@ MapObjType           2
 ProtoId              22959
 MapX                 186
 MapY                 158
-
-MapObjType           2
-ProtoId              22959
-MapX                 114
-MapY                 115
 
 MapObjType           2
 ProtoId              22959
@@ -30271,11 +30205,6 @@ MapY                 204
 
 MapObjType           2
 ProtoId              22959
-MapX                 186
-MapY                 114
-
-MapObjType           2
-ProtoId              22959
 MapX                 163
 MapY                 115
 
@@ -30283,11 +30212,6 @@ MapObjType           2
 ProtoId              22959
 MapX                 139
 MapY                 115
-
-MapObjType           2
-ProtoId              1623
-MapX                 186
-MapY                 114
 
 MapObjType           2
 ProtoId              1623
@@ -30796,14 +30720,6 @@ MapX                 186
 MapY                 111
 
 MapObjType           2
-ProtoId              2141
-MapX                 186
-MapY                 114
-LightColor           12333333
-LightDistance        8
-LightIntensity       50
-
-MapObjType           2
 ProtoId              4592
 MapX                 187
 MapY                 111
@@ -30959,14 +30875,6 @@ LightIntensity       50
 
 MapObjType           2
 ProtoId              2141
-MapX                 114
-MapY                 115
-LightColor           12333333
-LightDistance        8
-LightIntensity       50
-
-MapObjType           2
-ProtoId              2141
 MapX                 138
 MapY                 113
 LightColor           12333333
@@ -30984,11 +30892,6 @@ LightIntensity       50
 MapObjType           2
 ProtoId              5621
 MapX                 157
-MapY                 121
-
-MapObjType           2
-ProtoId              5621
-MapX                 158
 MapY                 121
 
 MapObjType           2
@@ -31030,5 +30933,208 @@ MapObjType           2
 ProtoId              5621
 MapX                 118
 MapY                 120
+
+MapObjType           2
+ProtoId              5622
+MapX                 157
+MapY                 123
+
+MapObjType           2
+ProtoId              2111
+MapX                 157
+MapY                 134
+
+MapObjType           2
+ProtoId              2122
+MapX                 156
+MapY                 140
+
+MapObjType           2
+ProtoId              2124
+MapX                 155
+MapY                 141
+
+MapObjType           2
+ProtoId              2110
+MapX                 152
+MapY                 140
+
+MapObjType           2
+ProtoId              2110
+MapX                 149
+MapY                 140
+OffsetX              8
+OffsetY              1
+
+MapObjType           2
+ProtoId              2116
+MapX                 157
+MapY                 139
+
+MapObjType           2
+ProtoId              2125
+MapX                 150
+MapY                 134
+
+MapObjType           2
+ProtoId              2102
+MapX                 150
+MapY                 136
+
+MapObjType           2
+ProtoId              2083
+MapX                 148
+MapY                 139
+
+MapObjType           2
+ProtoId              2254
+MapX                 147
+MapY                 138
+
+MapObjType           2
+ProtoId              2280
+MapX                 148
+MapY                 135
+
+MapObjType           2
+ProtoId              2280
+MapX                 147
+MapY                 137
+
+MapObjType           2
+ProtoId              2279
+MapX                 146
+MapY                 134
+
+MapObjType           2
+ProtoId              2273
+MapX                 155
+MapY                 129
+
+MapObjType           2
+ProtoId              2108
+MapX                 153
+MapY                 134
+
+MapObjType           2
+ProtoId              2117
+MapX                 156
+MapY                 133
+
+MapObjType           2
+ProtoId              2122
+MapX                 156
+MapY                 135
+
+MapObjType           2
+ProtoId              2127
+MapX                 155
+MapY                 140
+
+MapObjType           2
+ProtoId              5641
+MapX                 182
+MapY                 142
+
+MapObjType           2
+ProtoId              5641
+MapX                 182
+MapY                 122
+
+MapObjType           2
+ProtoId              5641
+MapX                 182
+MapY                 162
+
+MapObjType           2
+ProtoId              5641
+MapX                 182
+MapY                 158
+
+MapObjType           2
+ProtoId              2105
+MapX                 148
+MapY                 137
+OffsetX              -9
+OffsetY              10
+
+MapObjType           2
+ProtoId              2105
+MapX                 123
+MapY                 124
+
+MapObjType           2
+ProtoId              2111
+MapX                 180
+MapY                 147
+OffsetX              -12
+OffsetY              5
+
+MapObjType           2
+ProtoId              2124
+MapX                 178
+MapY                 147
+OffsetX              -6
+OffsetY              15
+
+MapObjType           2
+ProtoId              2110
+MapX                 176
+MapY                 147
+
+MapObjType           2
+ProtoId              2114
+MapX                 177
+MapY                 151
+
+MapObjType           2
+ProtoId              2107
+MapX                 176
+MapY                 150
+
+MapObjType           2
+ProtoId              9393
+MapX                 182
+MapY                 116
+OffsetX              -130
+OffsetY              200
+
+MapObjType           2
+ProtoId              9393
+MapX                 182
+MapY                 117
+OffsetX              -130
+OffsetY              200
+
+MapObjType           2
+ProtoId              9393
+MapX                 182
+MapY                 115
+OffsetX              -130
+OffsetY              200
+
+MapObjType           2
+ProtoId              9393
+MapX                 182
+MapY                 118
+OffsetX              -130
+OffsetY              200
+
+MapObjType           2
+ProtoId              4023
+MapX                 186
+MapY                 119
+Scenery_ToMapPid     8040
+Scenery_ToEntire     66
+
+MapObjType           2
+ProtoId              2223
+MapX                 182
+MapY                 115
+
+MapObjType           2
+ProtoId              2252
+MapX                 183
+MapY                 116
 
 

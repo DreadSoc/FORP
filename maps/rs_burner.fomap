@@ -2,8 +2,8 @@
 Version              4
 MaxHexX              400
 MaxHexY              400
-WorkHexX             164
-WorkHexY             188
+WorkHexX             162
+WorkHexY             125
 ScriptModule         -
 ScriptFunc           -
 NoLogOut             0
@@ -21029,7 +21029,6 @@ MapX                 139
 MapY                 173
 LightColor           1233333
 LightDistance        3
-LightIntensity       20
 
 MapObjType           2
 ProtoId              7681
@@ -21092,12 +21091,6 @@ MapX                 141
 MapY                 173
 
 MapObjType           2
-ProtoId              9205
-MapX                 142
-MapY                 127
-OffsetY              4
-
-MapObjType           2
 ProtoId              7677
 MapX                 142
 MapY                 147
@@ -21126,9 +21119,10 @@ MapY                 187
 
 MapObjType           2
 ProtoId              9206
-MapX                 143
-MapY                 128
-OffsetY              4
+MapX                 142
+MapY                 125
+OffsetX              15
+OffsetY              40
 
 MapObjType           2
 ProtoId              7678
@@ -22251,11 +22245,6 @@ MapObjType           2
 ProtoId              7681
 MapX                 158
 MapY                 129
-
-MapObjType           2
-ProtoId              7664
-MapX                 158
-MapY                 135
 
 MapObjType           2
 ProtoId              7681
@@ -27888,19 +27877,6 @@ OffsetY              -12
 Scenery_SpriteCut    1
 
 MapObjType           2
-ProtoId              9224
-MapX                 141
-MapY                 126
-OffsetY              4
-
-MapObjType           2
-ProtoId              9249
-MapX                 140
-MapY                 125
-OffsetX              16
-OffsetY              40
-
-MapObjType           2
 ProtoId              5622
 MapX                 141
 MapY                 127
@@ -28239,7 +28215,6 @@ MapX                 137
 MapY                 173
 LightColor           1233333
 LightDistance        3
-LightIntensity       20
 
 MapObjType           2
 ProtoId              7682
@@ -28247,7 +28222,6 @@ MapX                 181
 MapY                 173
 LightColor           1233333
 LightDistance        3
-LightIntensity       20
 
 MapObjType           2
 ProtoId              7682
@@ -28255,7 +28229,6 @@ MapX                 179
 MapY                 173
 LightColor           1233333
 LightDistance        3
-LightIntensity       20
 
 MapObjType           2
 ProtoId              7641
@@ -28301,7 +28274,7 @@ MapY                 135
 
 MapObjType           2
 ProtoId              7648
-MapX                 132
+MapX                 134
 MapY                 129
 
 MapObjType           2
@@ -29096,31 +29069,6 @@ MapY                 213
 
 MapObjType           2
 ProtoId              9249
-MapX                 136
-MapY                 125
-OffsetX              16
-OffsetY              40
-
-MapObjType           2
-ProtoId              9205
-MapX                 138
-MapY                 127
-OffsetY              4
-
-MapObjType           2
-ProtoId              9242
-MapX                 140
-MapY                 127
-OffsetY              4
-
-MapObjType           2
-ProtoId              9206
-MapX                 139
-MapY                 128
-OffsetY              4
-
-MapObjType           2
-ProtoId              9249
 MapX                 132
 MapY                 125
 OffsetX              16
@@ -29128,112 +29076,9 @@ OffsetY              40
 
 MapObjType           2
 ProtoId              9205
-MapX                 134
-MapY                 127
-OffsetY              4
-
-MapObjType           2
-ProtoId              9242
-MapX                 136
-MapY                 127
-OffsetY              4
-
-MapObjType           2
-ProtoId              9206
-MapX                 135
-MapY                 128
-OffsetY              4
-
-MapObjType           2
-ProtoId              9205
 MapX                 132
 MapY                 127
 OffsetY              4
-
-MapObjType           2
-ProtoId              7654
-MapX                 132
-MapY                 131
-
-MapObjType           2
-ProtoId              7641
-MapX                 135
-MapY                 131
-
-MapObjType           2
-ProtoId              7640
-MapX                 134
-MapY                 131
-
-MapObjType           2
-ProtoId              7641
-MapX                 133
-MapY                 131
-
-MapObjType           2
-ProtoId              7641
-MapX                 137
-MapY                 131
-
-MapObjType           2
-ProtoId              7640
-MapX                 136
-MapY                 131
-
-MapObjType           2
-ProtoId              7641
-MapX                 135
-MapY                 131
-
-MapObjType           2
-ProtoId              7641
-MapX                 139
-MapY                 131
-
-MapObjType           2
-ProtoId              7640
-MapX                 138
-MapY                 131
-
-MapObjType           2
-ProtoId              7641
-MapX                 137
-MapY                 131
-
-MapObjType           2
-ProtoId              7641
-MapX                 141
-MapY                 131
-
-MapObjType           2
-ProtoId              7640
-MapX                 140
-MapY                 131
-
-MapObjType           2
-ProtoId              7641
-MapX                 139
-MapY                 131
-
-MapObjType           2
-ProtoId              7641
-MapX                 143
-MapY                 131
-
-MapObjType           2
-ProtoId              7640
-MapX                 142
-MapY                 131
-
-MapObjType           2
-ProtoId              7641
-MapX                 141
-MapY                 131
-
-MapObjType           2
-ProtoId              7654
-MapX                 144
-MapY                 131
 
 MapObjType           1
 ProtoId              199
@@ -29355,21 +29200,6 @@ ProtoId              2618
 MapX                 139
 MapY                 162
 
-MapObjType           1
-ProtoId              10955
-MapX                 160
-MapY                 135
-
-MapObjType           2
-ProtoId              7698
-MapX                 161
-MapY                 135
-
-MapObjType           2
-ProtoId              7699
-MapX                 159
-MapY                 135
-
 MapObjType           2
 ProtoId              3495
 MapX                 175
@@ -29408,7 +29238,6 @@ MapX                 189
 MapY                 185
 LightColor           1233333
 LightDistance        3
-LightIntensity       20
 
 MapObjType           2
 ProtoId              6671
@@ -32182,15 +32011,6 @@ ProtoId              1623
 MapX                 157
 MapY                 181
 
-MapObjType           1
-ProtoId              1677
-MapX                 159
-MapY                 133
-AnimStayBegin        1
-AnimStayEnd          1
-Item_Val1            58
-Item_Val2            1
-
 MapObjType           2
 ProtoId              1624
 MapX                 152
@@ -32845,5 +32665,369 @@ MapObjType           2
 ProtoId              1625
 MapX                 171
 MapY                 186
+
+MapObjType           2
+ProtoId              6088
+MapX                 142
+MapY                 127
+
+MapObjType           2
+ProtoId              6109
+MapX                 140
+MapY                 127
+
+MapObjType           2
+ProtoId              6108
+MapX                 141
+MapY                 127
+
+MapObjType           1
+ProtoId              11048
+MapX                 138
+MapY                 126
+
+MapObjType           2
+ProtoId              6113
+MapX                 136
+MapY                 127
+
+MapObjType           2
+ProtoId              6111
+MapX                 138
+MapY                 127
+
+MapObjType           2
+ProtoId              6112
+MapX                 137
+MapY                 127
+
+MapObjType           2
+ProtoId              6110
+MapX                 139
+MapY                 127
+
+MapObjType           2
+ProtoId              6114
+MapX                 135
+MapY                 127
+
+MapObjType           2
+ProtoId              6088
+MapX                 134
+MapY                 127
+
+MapObjType           2
+ProtoId              9225
+MapX                 134
+MapY                 126
+OffsetY              4
+
+MapObjType           2
+ProtoId              3511
+MapX                 134
+MapY                 123
+
+MapObjType           2
+ProtoId              9224
+MapX                 135
+MapY                 126
+OffsetY              4
+
+MapObjType           2
+ProtoId              3510
+MapX                 136
+MapY                 123
+OffsetX              5
+OffsetY              2
+
+MapObjType           2
+ProtoId              9223
+MapX                 141
+MapY                 126
+OffsetY              4
+
+MapObjType           2
+ProtoId              9205
+MapX                 133
+MapY                 126
+OffsetY              28
+
+MapObjType           2
+ProtoId              7682
+MapX                 133
+MapY                 129
+
+MapObjType           2
+ProtoId              7677
+MapX                 132
+MapY                 129
+
+MapObjType           2
+ProtoId              7649
+MapX                 134
+MapY                 131
+
+MapObjType           2
+ProtoId              7677
+MapX                 132
+MapY                 131
+
+MapObjType           2
+ProtoId              7680
+MapX                 133
+MapY                 131
+
+MapObjType           2
+ProtoId              7650
+MapX                 144
+MapY                 131
+
+MapObjType           2
+ProtoId              3853
+MapX                 139
+MapY                 130
+Scenery_ToEntire     2
+Scenery_ToDir        2
+
+MapObjType           2
+ProtoId              3852
+MapX                 137
+MapY                 126
+ScriptName           t_teleport
+FuncName             t_EnterTeleport
+Scenery_ParamsCount  3
+Scenery_Param0       8040
+Scenery_Param1       67
+Scenery_Param2       5
+
+MapObjType           2
+ProtoId              3852
+MapX                 138
+MapY                 125
+ScriptName           t_teleport
+FuncName             t_EnterTeleport
+Scenery_ParamsCount  3
+Scenery_Param0       8040
+Scenery_Param1       67
+Scenery_Param2       5
+
+MapObjType           2
+ProtoId              3852
+MapX                 139
+MapY                 126
+ScriptName           t_teleport
+FuncName             t_EnterTeleport
+Scenery_ParamsCount  3
+Scenery_Param0       8040
+Scenery_Param1       67
+Scenery_Param2       5
+
+MapObjType           2
+ProtoId              5621
+MapX                 137
+MapY                 127
+
+MapObjType           2
+ProtoId              5621
+MapX                 139
+MapY                 127
+
+MapObjType           2
+ProtoId              10050
+MapX                 159
+MapY                 132
+
+MapObjType           2
+ProtoId              7669
+MapX                 161
+MapY                 135
+
+MapObjType           2
+ProtoId              7670
+MapX                 158
+MapY                 135
+
+MapObjType           1
+ProtoId              10953
+MapX                 160
+MapY                 135
+
+MapObjType           2
+ProtoId              5622
+MapX                 157
+MapY                 134
+
+MapObjType           2
+ProtoId              5622
+MapX                 157
+MapY                 133
+
+MapObjType           2
+ProtoId              5622
+MapX                 157
+MapY                 132
+
+MapObjType           2
+ProtoId              5622
+MapX                 158
+MapY                 131
+
+MapObjType           2
+ProtoId              5622
+MapX                 159
+MapY                 132
+
+MapObjType           2
+ProtoId              5622
+MapX                 160
+MapY                 131
+
+MapObjType           2
+ProtoId              5622
+MapX                 160
+MapY                 132
+
+MapObjType           2
+ProtoId              5622
+MapX                 163
+MapY                 134
+
+MapObjType           2
+ProtoId              5622
+MapX                 161
+MapY                 133
+
+MapObjType           2
+ProtoId              5622
+MapX                 162
+MapY                 133
+
+MapObjType           2
+ProtoId              5622
+MapX                 163
+MapY                 133
+
+MapObjType           2
+ProtoId              5622
+MapX                 162
+MapY                 131
+
+MapObjType           2
+ProtoId              5622
+MapX                 163
+MapY                 132
+
+MapObjType           2
+ProtoId              5622
+MapX                 162
+MapY                 132
+
+MapObjType           2
+ProtoId              5622
+MapX                 161
+MapY                 132
+
+MapObjType           2
+ProtoId              5622
+MapX                 163
+MapY                 130
+
+MapObjType           2
+ProtoId              5622
+MapX                 161
+MapY                 130
+
+MapObjType           2
+ProtoId              5622
+MapX                 159
+MapY                 130
+
+MapObjType           2
+ProtoId              5622
+MapX                 157
+MapY                 130
+
+MapObjType           2
+ProtoId              5622
+MapX                 158
+MapY                 130
+
+MapObjType           2
+ProtoId              5622
+MapX                 159
+MapY                 131
+
+MapObjType           2
+ProtoId              5622
+MapX                 160
+MapY                 130
+
+MapObjType           2
+ProtoId              5622
+MapX                 161
+MapY                 131
+
+MapObjType           2
+ProtoId              5622
+MapX                 162
+MapY                 130
+
+MapObjType           2
+ProtoId              5622
+MapX                 157
+MapY                 131
+
+MapObjType           2
+ProtoId              5622
+MapX                 163
+MapY                 131
+
+MapObjType           2
+ProtoId              5622
+MapX                 159
+MapY                 135
+
+MapObjType           2
+ProtoId              5622
+MapX                 158
+MapY                 133
+
+MapObjType           2
+ProtoId              5622
+MapX                 158
+MapY                 132
+
+MapObjType           2
+ProtoId              5622
+MapX                 162
+MapY                 134
+
+MapObjType           2
+ProtoId              5622
+MapX                 159
+MapY                 133
+
+MapObjType           2
+ProtoId              5622
+MapX                 158
+MapY                 134
+
+MapObjType           2
+ProtoId              2141
+MapX                 160
+MapY                 191
+LightDistance        12
+LightIntensity       20
+
+MapObjType           1
+ProtoId              1678
+MapX                 160
+MapY                 133
+OffsetX              2
+OffsetY              2
+AnimStayBegin        1
+AnimStayEnd          1
+Item_Val1            60
+Item_Val2            1
 
 

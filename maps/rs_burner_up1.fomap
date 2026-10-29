@@ -2,8 +2,8 @@
 Version              4
 MaxHexX              400
 MaxHexY              400
-WorkHexX             133
-WorkHexY             161
+WorkHexX             168
+WorkHexY             166
 ScriptModule         -
 ScriptFunc           -
 NoLogOut             0
@@ -3047,9 +3047,9 @@ tile       180  122            art\tiles\bld2043.frm
 tile       182  122            art\tiles\bld2043.frm
 tile       184  122            art\tiles\bld2043.frm
 tile       186  122            art\tiles\bld2043.frm
-tile       188  122            art\tiles\bld2043.frm
-tile       190  122            art\tiles\bld2043.frm
-tile       192  122            art\tiles\bld2043.frm
+tile_l     188  122          3 art\tiles\grt2001.frm
+tile_l     190  122          3 art\tiles\grt2001.frm
+tile_l     192  122          3 art\tiles\grt2001.frm
 tile       194  122            art\tiles\bld2043.frm
 tile       196  122            art\tiles\bld2043.frm
 tile       198  122            art\tiles\bld2043.frm
@@ -6620,20 +6620,16 @@ tile_l     146  178          3 art\tiles\metflc01.frm
 tile_l     148  178          3 art\tiles\vtggr011.frm
 tile       150  178            art\tiles\bld2043.frm
 tile       152  178            art\tiles\bld2043.frm
-tile       154  178            art\tiles\bld2043.frm
-tile       154  178            art\tiles\encl01.frm
-tile       156  178            art\tiles\bld2043.frm
-tile_l     156  178          3 art\tiles\curb16.frm
-tile       158  178            art\tiles\bld2043.frm
-tile       158  178            art\tiles\encl01.frm
-tile       160  178            art\tiles\bld2043.frm
-tile_l     160  178          3 art\tiles\curb16.frm
-tile       162  178            art\tiles\bld2043.frm
-tile       162  178            art\tiles\encl01.frm
-tile       164  178            art\tiles\bld2043.frm
-tile_l     164  178          3 art\tiles\curb16.frm
+tile       154  178            art\tiles\mstrflr1.frm
+tile       156  178            art\tiles\mstrflr1.frm
+tile       158  178            art\tiles\mstrflr1.frm
+tile       160  178            art\tiles\mstrflr1.frm
+tile       162  178            art\tiles\mstrflr1.frm
+tile       164  178            art\tiles\mstrflr1.frm
 tile_l     166  178          3 art\tiles\vtggr009.frm
+tile       166  178            art\tiles\mstrflr1.frm
 tile_l     168  178          3 art\tiles\metflc01.frm
+tile       168  178            art\tiles\mstrflr1.frm
 tile_l     170  178          3 art\tiles\metflc03.frm
 tile_l     172  178          3 art\tiles\metflc04.frm
 tile       174  178            art\tiles\vtggr011.frm
@@ -6756,20 +6752,16 @@ tile_l     146  180          3 art\tiles\metflc03.frm
 tile_l     148  180          3 art\tiles\vtggr011.frm
 tile       150  180            art\tiles\bld2043.frm
 tile       152  180            art\tiles\bld2043.frm
-tile       154  180            art\tiles\bld2043.frm
-tile_l     154  180          3 art\tiles\curb16.frm
-tile       156  180            art\tiles\bld2043.frm
-tile       156  180            art\tiles\encl01.frm
-tile       158  180            art\tiles\bld2043.frm
-tile_l     158  180          3 art\tiles\curb16.frm
-tile       160  180            art\tiles\bld2043.frm
-tile       160  180            art\tiles\encl01.frm
-tile       162  180            art\tiles\bld2043.frm
-tile_l     162  180          3 art\tiles\curb16.frm
-tile       164  180            art\tiles\bld2043.frm
-tile       164  180            art\tiles\encl01.frm
+tile       154  180            art\tiles\mstrflr1.frm
+tile       156  180            art\tiles\mstrflr1.frm
+tile       158  180            art\tiles\mstrflr1.frm
+tile       160  180            art\tiles\mstrflr1.frm
+tile       162  180            art\tiles\mstrflr1.frm
+tile       164  180            art\tiles\mstrflr1.frm
 tile_l     166  180          3 art\tiles\vtggr009.frm
+tile       166  180            art\tiles\mstrflr1.frm
 tile_l     168  180          3 art\tiles\metflc02.frm
+tile       168  180            art\tiles\mstrflr1.frm
 tile_l     170  180          3 art\tiles\metflc04.frm
 tile_l     172  180          3 art\tiles\metflc01.frm
 tile       174  180            art\tiles\vtggr011.frm
@@ -6892,20 +6884,16 @@ tile_l     146  182          3 art\tiles\metflc04.frm
 tile_l     148  182          3 art\tiles\vtggr011.frm
 tile       150  182            art\tiles\bld2043.frm
 tile       152  182            art\tiles\bld2043.frm
-tile       154  182            art\tiles\bld2043.frm
-tile       154  182            art\tiles\encl01.frm
-tile       156  182            art\tiles\bld2043.frm
-tile_l     156  182          3 art\tiles\curb16.frm
-tile       158  182            art\tiles\bld2043.frm
-tile       158  182            art\tiles\encl01.frm
-tile       160  182            art\tiles\bld2043.frm
-tile_l     160  182          3 art\tiles\curb16.frm
-tile       162  182            art\tiles\bld2043.frm
-tile       162  182            art\tiles\encl01.frm
-tile       164  182            art\tiles\bld2043.frm
-tile_l     164  182          3 art\tiles\curb16.frm
+tile       154  182            art\tiles\mstrflr1.frm
+tile       156  182            art\tiles\mstrflr1.frm
+tile       158  182            art\tiles\mstrflr1.frm
+tile       160  182            art\tiles\mstrflr1.frm
+tile       162  182            art\tiles\mstrflr1.frm
+tile       164  182            art\tiles\mstrflr1.frm
 tile_l     166  182          3 art\tiles\vtggr009.frm
+tile       166  182            art\tiles\mstrflr1.frm
 tile_l     168  182          3 art\tiles\metflc03.frm
+tile       168  182            art\tiles\mstrflr1.frm
 tile_l     170  182          3 art\tiles\metflc01.frm
 tile_l     172  182          3 art\tiles\metflc02.frm
 tile       174  182            art\tiles\vtggr011.frm
@@ -7028,20 +7016,16 @@ tile_l     146  184          3 art\tiles\metflc01.frm
 tile_l     148  184          3 art\tiles\vtggr011.frm
 tile       150  184            art\tiles\bld2043.frm
 tile       152  184            art\tiles\bld2043.frm
-tile       154  184            art\tiles\bld2043.frm
-tile_l     154  184          3 art\tiles\curb16.frm
-tile       156  184            art\tiles\bld2043.frm
-tile       156  184            art\tiles\encl01.frm
-tile       158  184            art\tiles\bld2043.frm
-tile_l     158  184          3 art\tiles\curb16.frm
-tile       160  184            art\tiles\bld2043.frm
-tile       160  184            art\tiles\encl01.frm
-tile       162  184            art\tiles\bld2043.frm
-tile_l     162  184          3 art\tiles\curb16.frm
-tile       164  184            art\tiles\bld2043.frm
-tile       164  184            art\tiles\encl01.frm
+tile       154  184            art\tiles\mstrflr1.frm
+tile       156  184            art\tiles\mstrflr1.frm
+tile       158  184            art\tiles\mstrflr1.frm
+tile       160  184            art\tiles\mstrflr1.frm
+tile       162  184            art\tiles\mstrflr1.frm
+tile       164  184            art\tiles\mstrflr1.frm
 tile_l     166  184          3 art\tiles\vtggr009.frm
+tile       166  184            art\tiles\mstrflr1.frm
 tile_l     168  184          3 art\tiles\metflc01.frm
+tile       168  184            art\tiles\mstrflr1.frm
 tile_l     170  184          3 art\tiles\metflc03.frm
 tile_l     172  184          3 art\tiles\metflc04.frm
 tile       174  184            art\tiles\metflc01.frm
@@ -7164,20 +7148,16 @@ tile_l     146  186          3 art\tiles\metflc03.frm
 tile_l     148  186          3 art\tiles\vtggr011.frm
 tile       150  186            art\tiles\bld2043.frm
 tile       152  186            art\tiles\bld2043.frm
-tile       154  186            art\tiles\bld2043.frm
-tile       154  186            art\tiles\encl01.frm
-tile       156  186            art\tiles\bld2043.frm
-tile_l     156  186          3 art\tiles\curb16.frm
-tile       158  186            art\tiles\bld2043.frm
-tile       158  186            art\tiles\encl01.frm
-tile       160  186            art\tiles\bld2043.frm
-tile_l     160  186          3 art\tiles\curb16.frm
-tile       162  186            art\tiles\bld2043.frm
-tile       162  186            art\tiles\encl01.frm
-tile       164  186            art\tiles\bld2043.frm
-tile_l     164  186          3 art\tiles\curb16.frm
+tile       154  186            art\tiles\mstrflr1.frm
+tile       156  186            art\tiles\mstrflr1.frm
+tile       158  186            art\tiles\mstrflr1.frm
+tile       160  186            art\tiles\bld_floor_7_3.png
+tile       162  186            art\tiles\bld_floor_7_3.png
+tile       164  186            art\tiles\mstrflr1.frm
 tile_l     166  186          3 art\tiles\vtggr009.frm
+tile       166  186            art\tiles\mstrflr1.frm
 tile_l     168  186          3 art\tiles\metflc02.frm
+tile       168  186            art\tiles\mstrflr1.frm
 tile_l     170  186          3 art\tiles\metflc04.frm
 tile_l     172  186          3 art\tiles\metflc01.frm
 tile       174  186            art\tiles\metflc01.frm
@@ -7300,20 +7280,16 @@ tile_l     146  188          3 art\tiles\metflc04.frm
 tile_l     148  188          3 art\tiles\vtggr011.frm
 tile       150  188            art\tiles\bld2043.frm
 tile       152  188            art\tiles\bld2043.frm
-tile       154  188            art\tiles\bld2043.frm
-tile_l     154  188          3 art\tiles\curb16.frm
-tile       156  188            art\tiles\bld2043.frm
-tile       156  188            art\tiles\encl01.frm
-tile       158  188            art\tiles\bld2043.frm
-tile_l     158  188          3 art\tiles\curb16.frm
-tile       160  188            art\tiles\bld2043.frm
-tile       160  188            art\tiles\encl01.frm
-tile       162  188            art\tiles\bld2043.frm
-tile_l     162  188          3 art\tiles\curb16.frm
-tile       164  188            art\tiles\bld2043.frm
-tile       164  188            art\tiles\encl01.frm
+tile       154  188            art\tiles\mstrflr1.frm
+tile       156  188            art\tiles\mstrflr1.frm
+tile       158  188            art\tiles\mstrflr1.frm
+tile       160  188            art\tiles\bld_floor_7_3.png
+tile       162  188            art\tiles\bld_floor_7_3.png
+tile       164  188            art\tiles\mstrflr1.frm
 tile_l     166  188          3 art\tiles\vtggr009.frm
+tile       166  188            art\tiles\mstrflr1.frm
 tile_l     168  188          3 art\tiles\metflc03.frm
+tile       168  188            art\tiles\mstrflr1.frm
 tile_l     170  188          3 art\tiles\metflc01.frm
 tile_l     172  188          3 art\tiles\metflc02.frm
 tile       174  188            art\tiles\metflc01.frm
@@ -7436,20 +7412,16 @@ tile_l     146  190          3 art\tiles\metflc01.frm
 tile_l     148  190          3 art\tiles\vtggr011.frm
 tile       150  190            art\tiles\bld2043.frm
 tile       152  190            art\tiles\bld2043.frm
-tile       154  190            art\tiles\bld2043.frm
-tile       154  190            art\tiles\encl01.frm
-tile       156  190            art\tiles\bld2043.frm
-tile_l     156  190          3 art\tiles\curb16.frm
-tile       158  190            art\tiles\bld2043.frm
-tile       158  190            art\tiles\encl01.frm
-tile       160  190            art\tiles\bld2043.frm
-tile_l     160  190          3 art\tiles\curb16.frm
-tile       162  190            art\tiles\bld2043.frm
-tile       162  190            art\tiles\encl01.frm
-tile       164  190            art\tiles\bld2043.frm
-tile_l     164  190          3 art\tiles\curb16.frm
+tile       154  190            art\tiles\mstrflr1.frm
+tile       156  190            art\tiles\mstrflr1.frm
+tile       158  190            art\tiles\mstrflr1.frm
+tile       160  190            art\tiles\mstrflr1.frm
+tile       162  190            art\tiles\mstrflr1.frm
+tile       164  190            art\tiles\mstrflr1.frm
 tile_l     166  190          3 art\tiles\vtggr009.frm
+tile       166  190            art\tiles\mstrflr1.frm
 tile_l     168  190          3 art\tiles\metflc02.frm
+tile       168  190            art\tiles\mstrflr1.frm
 tile_l     170  190          3 art\tiles\metflc04.frm
 tile_l     172  190          3 art\tiles\metflc01.frm
 tile       174  190            art\tiles\metflc01.frm
@@ -7572,20 +7544,16 @@ tile_l     146  192          3 art\tiles\metflc03.frm
 tile_l     148  192          3 art\tiles\vtggr011.frm
 tile       150  192            art\tiles\bld2043.frm
 tile       152  192            art\tiles\bld2043.frm
-tile       154  192            art\tiles\bld2043.frm
-tile_l     154  192          3 art\tiles\curb16.frm
-tile       156  192            art\tiles\bld2043.frm
-tile       156  192            art\tiles\encl01.frm
-tile       158  192            art\tiles\bld2043.frm
-tile_l     158  192          3 art\tiles\curb16.frm
-tile       160  192            art\tiles\bld2043.frm
-tile       160  192            art\tiles\encl01.frm
-tile       162  192            art\tiles\bld2043.frm
-tile_l     162  192          3 art\tiles\curb16.frm
-tile       164  192            art\tiles\bld2043.frm
-tile       164  192            art\tiles\encl01.frm
+tile       154  192            art\tiles\mstrflr1.frm
+tile       156  192            art\tiles\mstrflr1.frm
+tile       158  192            art\tiles\mstrflr1.frm
+tile       160  192            art\tiles\mstrflr1.frm
+tile       162  192            art\tiles\mstrflr1.frm
+tile       164  192            art\tiles\mstrflr1.frm
 tile_l     166  192          3 art\tiles\vtggr009.frm
+tile       166  192            art\tiles\mstrflr1.frm
 tile_l     168  192          3 art\tiles\metflc03.frm
+tile       168  192            art\tiles\mstrflr1.frm
 tile_l     170  192          3 art\tiles\metflc01.frm
 tile_l     172  192          3 art\tiles\metflc02.frm
 tile       174  192            art\tiles\metflc01.frm
@@ -7708,20 +7676,16 @@ tile_l     146  194          3 art\tiles\metflc04.frm
 tile_l     148  194          3 art\tiles\vtggr011.frm
 tile       150  194            art\tiles\bld2043.frm
 tile       152  194            art\tiles\bld2043.frm
-tile       154  194            art\tiles\bld2043.frm
-tile       154  194            art\tiles\encl01.frm
-tile       156  194            art\tiles\bld2043.frm
-tile_l     156  194          3 art\tiles\curb16.frm
-tile       158  194            art\tiles\bld2043.frm
-tile       158  194            art\tiles\encl01.frm
-tile       160  194            art\tiles\bld2043.frm
-tile_l     160  194          3 art\tiles\curb16.frm
-tile       162  194            art\tiles\bld2043.frm
-tile       162  194            art\tiles\encl01.frm
-tile       164  194            art\tiles\bld2043.frm
-tile_l     164  194          3 art\tiles\curb16.frm
+tile       154  194            art\tiles\mstrflr1.frm
+tile       156  194            art\tiles\mstrflr1.frm
+tile       158  194            art\tiles\mstrflr1.frm
+tile       160  194            art\tiles\mstrflr1.frm
+tile       162  194            art\tiles\mstrflr1.frm
+tile       164  194            art\tiles\mstrflr1.frm
 tile_l     166  194          3 art\tiles\vtggr009.frm
+tile       166  194            art\tiles\mstrflr1.frm
 tile_l     168  194          3 art\tiles\metflc01.frm
+tile       168  194            art\tiles\mstrflr1.frm
 tile_l     170  194          3 art\tiles\metflc03.frm
 tile_l     172  194          3 art\tiles\metflc04.frm
 tile       174  194            art\tiles\metflc01.frm
@@ -23528,11 +23492,6 @@ MapX                 165
 MapY                 153
 
 MapObjType           2
-ProtoId              2029
-MapX                 165
-MapY                 154
-
-MapObjType           2
 ProtoId              9041
 MapX                 165
 MapY                 165
@@ -25612,16 +25571,6 @@ MapY                 121
 OffsetY              5
 
 MapObjType           2
-ProtoId              7696
-MapX                 188
-MapY                 121
-
-MapObjType           2
-ProtoId              7695
-MapX                 188
-MapY                 123
-
-MapObjType           2
 ProtoId              7868
 MapX                 188
 MapY                 145
@@ -25798,21 +25747,6 @@ MapY                 121
 OffsetY              5
 
 MapObjType           2
-ProtoId              7682
-MapX                 189
-MapY                 121
-
-MapObjType           2
-ProtoId              5064
-MapX                 189
-MapY                 122
-
-MapObjType           2
-ProtoId              7678
-MapX                 189
-MapY                 123
-
-MapObjType           2
 ProtoId              7867
 MapX                 189
 MapY                 145
@@ -25885,16 +25819,6 @@ MapY                 121
 OffsetY              5
 
 MapObjType           2
-ProtoId              7677
-MapX                 190
-MapY                 121
-
-MapObjType           2
-ProtoId              7677
-MapX                 190
-MapY                 123
-
-MapObjType           2
 ProtoId              7866
 MapX                 190
 MapY                 145
@@ -25958,23 +25882,6 @@ MapY                 121
 OffsetY              5
 
 MapObjType           2
-ProtoId              7682
-MapX                 191
-MapY                 121
-Scenery_SpriteCut    1
-
-MapObjType           2
-ProtoId              5064
-MapX                 191
-MapY                 122
-
-MapObjType           2
-ProtoId              7678
-MapX                 191
-MapY                 123
-Scenery_SpriteCut    1
-
-MapObjType           2
 ProtoId              7865
 MapX                 191
 MapY                 145
@@ -26032,23 +25939,6 @@ MapY                 121
 OffsetY              5
 
 MapObjType           2
-ProtoId              7696
-MapX                 192
-MapY                 121
-Scenery_SpriteCut    1
-
-MapObjType           2
-ProtoId              7695
-MapX                 192
-MapY                 123
-Scenery_SpriteCut    1
-
-MapObjType           2
-ProtoId              7681
-MapX                 192
-MapY                 131
-
-MapObjType           2
 ProtoId              7872
 MapX                 192
 MapY                 145
@@ -26103,23 +25993,6 @@ ProtoId              9308
 MapX                 193
 MapY                 121
 OffsetY              5
-
-MapObjType           2
-ProtoId              7682
-MapX                 193
-MapY                 121
-Scenery_SpriteCut    111
-
-MapObjType           2
-ProtoId              7682
-MapX                 193
-MapY                 123
-Scenery_SpriteCut    1
-
-MapObjType           2
-ProtoId              7680
-MapX                 193
-MapY                 131
 
 MapObjType           2
 ProtoId              7867
@@ -26184,36 +26057,6 @@ ProtoId              9377
 MapX                 194
 MapY                 122
 OffsetY              6
-
-MapObjType           2
-ProtoId              9376
-MapX                 194
-MapY                 123
-OffsetY              5
-
-MapObjType           2
-ProtoId              9375
-MapX                 194
-MapY                 124
-OffsetY              5
-
-MapObjType           2
-ProtoId              9379
-MapX                 194
-MapY                 125
-OffsetY              5
-
-MapObjType           2
-ProtoId              9378
-MapX                 194
-MapY                 126
-OffsetY              5
-
-MapObjType           2
-ProtoId              9379
-MapX                 194
-MapY                 127
-OffsetY              5
 
 MapObjType           2
 ProtoId              9398
@@ -33890,10 +33733,8 @@ MapX                 158
 MapY                 125
 OffsetX              2
 OffsetY              2
-AnimStayBegin        1
-AnimStayEnd          1
 Item_Val1            60
-Item_Val2            1
+Item_Val2            2
 
 MapObjType           1
 ProtoId              1677
@@ -33981,20 +33822,6 @@ MapY                 197
 LightColor           -551568555
 LightDistance        8
 LightIntensity       50
-
-MapObjType           2
-ProtoId              2141
-MapX                 131
-MapY                 189
-LightDistance        30
-LightIntensity       20
-
-MapObjType           2
-ProtoId              2141
-MapX                 157
-MapY                 186
-LightDistance        30
-LightIntensity       30
 
 MapObjType           2
 ProtoId              2141
@@ -34123,11 +33950,6 @@ MapY                 125
 
 MapObjType           2
 ProtoId              5621
-MapX                 158
-MapY                 125
-
-MapObjType           2
-ProtoId              5621
 MapX                 121
 MapY                 125
 
@@ -34140,5 +33962,196 @@ MapObjType           2
 ProtoId              5621
 MapX                 153
 MapY                 163
+
+MapObjType           2
+ProtoId              6677
+MapX                 158
+MapY                 184
+
+MapObjType           2
+ProtoId              24018
+MapX                 158
+MapY                 186
+OffsetX              -5
+OffsetY              9
+
+MapObjType           2
+ProtoId              6675
+MapX                 159
+MapY                 184
+
+MapObjType           2
+ProtoId              4796
+MapX                 159
+MapY                 185
+
+MapObjType           2
+ProtoId              6674
+MapX                 160
+MapY                 184
+
+MapObjType           2
+ProtoId              6675
+MapX                 161
+MapY                 184
+
+MapObjType           2
+ProtoId              4788
+MapX                 161
+MapY                 185
+
+MapObjType           2
+ProtoId              6672
+MapX                 162
+MapY                 178
+
+MapObjType           2
+ProtoId              6670
+MapX                 162
+MapY                 179
+
+MapObjType           2
+ProtoId              6672
+MapX                 162
+MapY                 180
+
+MapObjType           2
+ProtoId              6670
+MapX                 162
+MapY                 181
+
+MapObjType           2
+ProtoId              6672
+MapX                 162
+MapY                 182
+
+MapObjType           2
+ProtoId              6670
+MapX                 162
+MapY                 183
+
+MapObjType           2
+ProtoId              6676
+MapX                 162
+MapY                 184
+
+MapObjType           2
+ProtoId              6669
+MapX                 162
+MapY                 186
+
+MapObjType           2
+ProtoId              15328
+MapX                 162
+MapY                 187
+
+MapObjType           2
+ProtoId              6675
+MapX                 163
+MapY                 184
+
+MapObjType           2
+ProtoId              6674
+MapX                 164
+MapY                 184
+
+MapObjType           2
+ProtoId              6675
+MapX                 165
+MapY                 184
+
+MapObjType           2
+ProtoId              4789
+MapX                 165
+MapY                 185
+
+MapObjType           2
+ProtoId              4790
+MapX                 165
+MapY                 185
+
+MapObjType           2
+ProtoId              24004
+MapX                 165
+MapY                 188
+
+MapObjType           2
+ProtoId              6673
+MapX                 166
+MapY                 184
+
+MapObjType           2
+ProtoId              5622
+MapX                 157
+MapY                 127
+
+MapObjType           1
+ProtoId              10913
+MapX                 165
+MapY                 154
+
+MapObjType           2
+ProtoId              9397
+MapX                 194
+MapY                 122
+OffsetY              5
+
+MapObjType           2
+ProtoId              9396
+MapX                 194
+MapY                 123
+OffsetY              5
+
+MapObjType           2
+ProtoId              9395
+MapX                 194
+MapY                 124
+OffsetY              5
+
+MapObjType           2
+ProtoId              9394
+MapX                 194
+MapY                 125
+OffsetY              5
+
+MapObjType           2
+ProtoId              9393
+MapX                 194
+MapY                 126
+OffsetY              5
+
+MapObjType           2
+ProtoId              9392
+MapX                 194
+MapY                 127
+OffsetY              5
+
+MapObjType           2
+ProtoId              7649
+MapX                 188
+MapY                 123
+
+MapObjType           2
+ProtoId              7648
+MapX                 188
+MapY                 121
+
+MapObjType           2
+ProtoId              3852
+MapX                 165
+MapY                 154
+ScriptName           t_teleport
+FuncName             t_EnterTeleport
+Scenery_ParamsCount  3
+Scenery_Param0       8423
+Scenery_Param1       1
+Scenery_Param2       2
+
+MapObjType           2
+ProtoId              3853
+MapX                 166
+MapY                 154
+Scenery_ToEntire     33
+Scenery_ToDir        2
 
 
