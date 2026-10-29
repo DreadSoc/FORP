@@ -1,0 +1,71 @@
+[comment]
+Example dialog for teleportation of whole group (with pets and followers) into selected map entire.
+
+[data]
+lang=engl
+
+[dialog]
+&
+1 1000 None 0 #
+8 1010 D _param p KARMA_SLAVER = 10 #
+2 1020 D _param p KARMA_SLAVER } 5 #
+6 1030 D _param p KARMA_SLAVER } 1 D _param p KARMA_SLAVER { 4 #
+5 1040 D _param p KARMA_SLAVER { 0 @
+2 2000 None 0 #
+3 2010 D _script DTO@b_gLESSm 2 3 1 #
+9 2020 D _script DTO@b_gMOREm 2 3 1 @
+3 3000 None 1 #
+4 3010 #
+7 3020 @
+4 4000 None 0 #
+0 4010 R _script DTO@r_gSETm 2 2 20 R _script dialog@r_TransitToMap 2 8366 71 R _param p KARMA_SLAVER = 10 @
+5 5000 None 0 @
+6 6000 None 0 @
+7 7000 None 0 #
+0 7010 R _script DTO@r_gSETm 2 2 20 R _script dialog@r_TransitToMap 2 9100 71 R _param p KARMA_SLAVER = 10 #
+0 7020 R _script DTO@r_gSETm 2 2 20 R _script dialog@r_TransitToMap 2 355 71 R _param p KARMA_SLAVER = 10 #
+0 7030 R _script DTO@r_gSETm 2 2 20 R _script dialog@r_TransitToMap 2 5804 71 R _param p KARMA_SLAVER = 10 @
+8 8000 None 0 #
+0 8010 D _script DTO@b_gLESSm 2 2 3 R _script DTO@r_gSETm 2 3 20 R _script dialog@r_TransitToMap 2 8040 71 R _param p KARMA_SLAVER - 2 #
+0 8020 #
+9 8030 D _script DTO@b_gMOREm 2 2 2 @
+9 9000 None 0 &
+
+[engl]
+{100}{}{Fallout online vault dweller.}
+{200}{}{You see one of fallout online vault dwellers.}
+{210}{}{You see a shabby man. Apparently, he is tired.}
+{210}{}{You see a shabby man. He has a distant, bored look.}
+{210}{}{You see a shabby man. He is obviously hung over.}
+{210}{}{You see a shabby man. He is buzzed.}
+{210}{}{You see a shabby man. He angrilly glances at you, then turns away.}
+{210}{}{You see a shabby man. He got his ass kicked somewhere.}
+{1000}{}{Predialogue checks}
+{1010}{}{PC Return}
+{1020}{}{PC Slaver}
+{1030}{}{PC Slaver Unexp}
+{1040}{}{PC Slave}
+{2000}{}{A mean-looking bald man in a biker jacket and stained jeans leans against the buggy. He nods at you.
+
+Taxi?}
+{2010}{}{Where can you take me?}
+{2020}{}{Where can you take me?}
+{3000}{}{I can either take you to the big parking or we can go slave hunting.}
+{3010}{}{What's at the big parking?}
+{3020}{}{Slave hunting? Where exactly?}
+{4000}{}{Big Parking is near the mines and radio station. The Enclave rarely operates in the area, but after the Vault 0 incident, they high-teched the fuck out of the place, installing turrets and deploying robots everywhere.
+The mines are fully automated, but the parking lot itself remains abandoned, making it a perfect place to send slaves scavenging. There are piles of scrap everywhere, and they can hunt a few meaty rats while they’re at it.
+A no-brainer, really.}
+{4010}{}{Let's go. [Jump in the buggy]}
+{5000}{}{Get away from me, filth!}
+{6000}{}{**leans on the buggy** @@ I get a pass for many things as a driver. @@ Roadkill? I call it lunch.}
+{7000}{}{I’ve got a couple of coordinates from our guys. We head over, talk to the locals and persuade them to come back with us.}
+{7010}{}{Sounds crazy, let's go!}
+{7020}{}{Sounds crazy, let's go!}
+{7030}{}{Sounds crazy, let's go!}
+{8000}{}{Ready to go back?}
+{8010}{}{Yes!}
+{8020}{}{Not yet.}
+{8030}{}{Yes!}
+{9000}{}{We can't go yet. The buggy is charging.}
+

@@ -1,0 +1,406 @@
+[comment]
+Fred Swanson - FORP new-player tutorial NPC / crafting expansion v1.1
+
+Brief biography:
+Fred Swanson is a plain-spoken new-player tutorial NPC in a leather duster, usually smoking a cigarette.
+
+Overall profile:
+Functional tutorial NPC. Direct, practical, lightly dry, and focused on explaining FORP/TLJ controls and systems without burying the player in lore.
+
+Dialogue/mechanics summary:
+- Preserves the original Speech, Avatar, RP Menu, and Inventory tutorials.
+- Adds a full Crafting tutorial hub.
+- Covers Fixboy (F), recipe availability, professions, Tech Tiers, Craft skill/SPECIAL, tools/workplaces, failure risk, and real recipe examples.
+- Dialogue-only informational expansion. No quest state, inventory transfer, scripts, flags, timers, or rewards are used.
+
+Important scripts/constants/flags/items/state notes:
+- Craft skill: SK_CRAFT.
+- Professions: PE_CRAFTSMAN, PE_MECHANIC, PE_CHEMIST, PE_ELECTRICIAN.
+- Profession baseline: level 2 in each; individual profession cap 6; total profession-level cap 18.
+- Fixboy success display uses recipe tier difficulty: Tier^2 * 10 + 50.
+- Craft failure can destroy each required material unit at a 10 percent chance.
+- Recipe examples are taken from the current central crafting list (_crafts.fos).
+- No persistent dialogue state is used by this file.
+
+[data]
+lang=engl
+
+[dialog]
+&
+1 1000 None 1 #
+2 1010 @
+2 2000 None 1 #
+3 2010 #
+5 2020 #
+6 2030 #
+9 2040 #
+10 2050 #
+21 2060 @
+3 3000 None 1 #
+4 3010 #
+2 3020 @
+4 4000 None 0 #
+2 4010 @
+5 5000 None 1 #
+6 5010 #
+2 5020 @
+6 6000 None 1 #
+7 6010 #
+2 6020 @
+7 7000 None 1 #
+8 7010 #
+2 7020 @
+8 8000 None 0 #
+2 8010 @
+9 9000 None 0 @
+10 10000 None 1 #
+11 10010 #
+12 10020 #
+14 10030 #
+15 10040 #
+16 10050 #
+18 10060 #
+19 10070 #
+2 10080 @
+11 11000 None 1 #
+12 11010 #
+15 11020 #
+10 11030 @
+12 12000 None 1 #
+13 12010 #
+14 12020 #
+10 12030 @
+13 13000 None 1 #
+14 13010 #
+10 13020 @
+14 14000 None 1 #
+20 14010 #
+18 14020 #
+10 14030 @
+15 15000 None 1 #
+16 15010 #
+10 15020 @
+16 16000 None 1 #
+17 16010 #
+10 16020 @
+17 17000 None 1 #
+18 17010 #
+10 17020 @
+18 18000 None 1 #
+14 18010 #
+10 18020 @
+19 19000 None 1 #
+10 19010 #
+2 19020 @
+20 20000 None 1 #
+18 20010 #
+10 20020 @
+21 21000 None 1 #
+22 21010 #
+23 21020 #
+25 21030 #
+26 21040 #
+27 21050 #
+28 21060 #
+32 21070 #
+33 21080 @
+22 22000 None 0 @
+23 23000 None 0 #
+24 23010 @
+24 24000 None 0 @
+25 25000 None 0 @
+26 26000 None 0 @
+27 27000 None 0 @
+28 28000 None 1 #
+29 28010 #
+30 28020 #
+31 28030 @
+29 29000 None 0 @
+30 30000 None 0 @
+31 31000 None 0 @
+32 32000 None 0 @
+33 33000 None 0 &
+
+[engl]
+{100}{}{Fred Swanson}
+{200}{}{Fred Swanson}
+{210}{}{Fred Swanson smokes a cigarette and wears a leather duster}
+{1000}{}{Predialogue installations}
+{1010}{}{PC 1st Meeting}
+{2000}{}{Hey there, roleplayer. Welcome to FORP. What do you want to learn?}
+{2010}{}{Speech.}
+{2020}{}{Avatar.}
+{2030}{}{RP Menu}
+{2040}{}{Inventory.}
+{2050}{}{Crafting.}
+{2060}{}{Skills.}
+{3000}{}{Speech is very simple. Click ENTER to open chat window, enter your message and click ENTER again to send the message.
+
+Depending on the volume, your text would come out either blue, yellow or red. This indicates how far your speech travels in hexes. You can control your volume in different ways:
+1. Change it in RP MENU (Alt-M): Increase Speech/ Decrease Speech.
+2. Send your message like that: "//30 Hello!". This means that your speech would travel as far as 30 hexes.
+3. Send your message like that: "++Hey!++". This would make your speech louder than it was set up using RP MENU. "--pssst--" - the other way around. You can also combine these functions in one message: "++Hey!++ come closer and --listen to me--".}
+{3010}{}{[More]}
+{3020}{}{[Learn other things]}
+{4000}{}{If you want to whisper, so that only people right next to you can hear you, send your message like that: ",w hey man" or "/w hey man", where "w" stands for whisper.
+
+If you want to scream, so that the whole map can hear you, send your message like that: ".s danger" or "/s danger".
+
+If you want to talk over the radio, send your message like that: ".r can anyone hear me?" or "/r can anyone hear me?". If you switch off failsafe in your radio, you can hold shift and enter your message to send a radio message.}
+{4010}{}{[Learn other things]}
+{5000}{}{To set up your avatar create a square image that is less than 50kb. Some people like to AI generate them, while others find other suitable images and crop them.
+
+Click ALT-K and choose one of the slots for your main avatar. You can add more, like one with glasses or with a hoodie on. It's all up to you, but should be reasonable within  your character.}
+{5010}{}{[More]}
+{5020}{}{[Learn other things]}
+{6000}{}{RP Menu is an important tool to elevate your game experience. Click ALT-M to open the menu.
+
+Face Hiding - lets you hide/reveal your face if you wear a mask, hoodie or balaclava.
+Avatar Mode - lets you set up how you want to see other players' avatars. SHOW: places avatars above players' sprites, CURSOR: shows avatar in the right top corner when you hover cursor over a sprite, HIDE: hides all avatars.
+Hide Desc. - toggle to switch your additional description
+Hide Typing - toggle to switch indicator that you're typing
+Radio Safety - toggle to send radio messages by holding shift when enter.
+}
+{6010}{}{[More]}
+{6020}{}{[Learn other things]}
+{7000}{}{WSAD movement - try it! devs are sure that's the best way to stay on top in combat.
+RTS movement - for RPG lovers.
+Item Visor - can also be activated using 'f7'. Shows names of all dynamic items, containers and other elements visible to your character. Could be useful when you investigate something or trying to find something hidden.
+Wall Alpha - you can set up how visible your walls when you click 'f10'. It's an important feature for tight spaces and usually in combat too.
+Toggle NPC Icons - lets you see quest icons
+Toggle Speech Radius - lets you see how far your speech travels.
+Increase/Decrease Speech - changes setting of the distance of your speech
+Rolls - lets you roll dice, skills and S.P.E.C.I.A.L.
+Animations - try them out! These are just fun animations useful for your RP.
+}
+{7010}{}{What about ACTIONS?}
+{7020}{}{[Learn other things]}
+{8000}{}{Lie On Belly/Back - lets you lie down on the ground. This way your hunger and thirst meters slow down. Try to lie down before you log off.
+Attempt Suicide - don't do it!
+Suggest Sex - +18 feature only, Lets you have sex with other players.
+AFK Mode - adds a permanent description next to your sprite. It's a useful feature to indicate that you're AFK or just for rp reasons.
+Attempt Puke - can be useful to clean up your stomach after poisoning.
+Describe Self - adds a description to your character
+Remember Name - lets you remember other players and NPCs
+Check ID - lets you see your ID.
+Active Drugs - tells you about active drugs in your system and withdrawals.
+}
+{8010}{}{[Learn other things]}
+{9000}{}{Inventory is a bit more interesting than original Fallout. Access it by clicking 'I'.
+ARMOUR - slot for your jacket or a proper armor. As soon as you put it on, your stats change in the top right windon.
+HAND 1 & 2 - slots for your weapons and other rp items, like cigarettes, food, drinks and so on.
+HEAD - slot for a mask to hide your face or a helmet that can protect your head or a necklace/glasses that can change your S.P.E.C.I.A.L.
+BACK - slot for your backpack/bag. Helps you to reduce the volume and weight that you carry. Always add it after you put armor on.
+UTILITY - slot for lanterns/radios and other utility items.}
+{10000}{}{Crafting turns raw materials, junk and parts into useful gear, components, medicine, weapons and more.
+
+Press F to open Fixboy. Fixboy is your recipe book and your crafting menu.
+
+Select a recipe and it will show what the recipe produces, the materials and tools it needs, its profession and Tech Tier, and your displayed chance of success.
+
+Recipes you can make right now are shown in green. Recipes you cannot currently make are grey. Grey usually means you are missing the profession level, materials, tools, workplace, or some combination of them.}
+{10010}{}{How do I actually craft something?}
+{10020}{}{Explain professions and Tech Tiers.}
+{10030}{}{What affects my Craft skill and success chance?}
+{10040}{}{How do tools and workplaces work?}
+{10050}{}{Give me some real crafting examples.}
+{10060}{}{What happens if a craft fails?}
+{10070}{}{Give me the short version.}
+{10080}{}{[Learn other things]}
+{11000}{}{Press F and browse Fixboy. Pick the recipe you want, then read its requirements before you hit Craft.
+
+You need:
+1. Enough levels in the recipe's profession for its Tech Tier.
+2. Every listed material.
+3. Every listed tool or required workplace.
+4. A Craft success chance you are willing to risk.
+
+Not every recipe needs a workbench. Some simple recipes can be made with only materials, or with hand tools. Others specifically require a Workbench, Fireplace, Ammo Rig, or another workplace.
+
+Fixboy is also useful when you cannot make something yet: grey recipes still let you see what you need to collect or learn.}
+{11010}{}{Explain professions and Tech Tiers.}
+{11020}{}{Tell me more about tools and workplaces.}
+{11030}{}{[Back to crafting]}
+{12000}{}{There are four crafting professions:
+
+Craftsman - DIY crafting and material processing. A lot of hand-made equipment, clothing, tools and general construction falls here.
+
+Mechanic - mechanics and engineering. Guns, machines and mechanical parts commonly fall here.
+
+Chemist - chemistry and biotech. Medicine, chems and chemical processing live here.
+
+Electrician - electronics and computing. Electrical parts and powered technology commonly use this profession.
+
+Every recipe has a profession and a Tech Tier. Your level in that profession must be at least as high as the recipe's tier.
+
+Mechanic 3 can attempt a Mechanic Tier 3 recipe. Mechanic 2 cannot, even with an excellent Craft skill.
+
+Profession unlocks the recipe. Craft skill decides how well you handle the attempt.}
+{12010}{}{How do profession levels work?}
+{12020}{}{So what does my Craft skill do?}
+{12030}{}{[Back to crafting]}
+{13000}{}{Characters start at profession level 2 in all four professions.
+
+Each profession can reach level 6, but the four profession levels together are capped at 18. Starting at 2/2/2/2 uses 8 of those levels, leaving room for 10 more levels beyond the starting baseline.
+
+That means you cannot simply max all four professions. Eventually you have to specialize.
+
+Profession books and manuals can raise the matching profession. They work in order: you cannot use an advanced tier book to skip the levels before it.
+
+A higher profession level lets you attempt recipes of a higher Tech Tier in that profession.}
+{13010}{}{What affects my Craft skill and chance?}
+{13020}{}{[Back to crafting]}
+{14000}{}{Your current Craft skill is what the crafting roll uses.
+
+Your SPECIAL stats feed into its base value like this:
+
+Craft = Intelligence x 3 + Agility x 2 + Perception
+
+So Intelligence matters most, Agility is next, and Perception contributes as well.
+
+Profession and Craft skill are separate. A high profession level lets you attempt high-tier recipes. A high Craft skill makes you more likely to succeed at the recipes you are allowed to attempt.
+
+Normal Fixboy crafting checks SK_CRAFT for the success roll. Repair and Science do not replace Craft for ordinary Fixboy recipes.}
+{14010}{}{How does Tech Tier change the difficulty?}
+{14020}{}{What happens if the roll fails?}
+{14030}{}{[Back to crafting]}
+{15000}{}{Materials are consumed when a craft succeeds. Tools are requirements you need available to perform the job.
+
+Recipes can ask for things like a Hammer, Sledgehammer, Knife, Multitool, Mortar and pestle, Screwdriver, or a workplace such as a Workbench, Fireplace, or Ammo Rig.
+
+If the recipe does not list a particular tool, you do not need to invent one. Read Fixboy and follow the recipe.
+
+When you craft through a bench, stay next to it. The crafting code also checks the bench itself and, if it is an unlocked container, items stored inside it. A Portable Workbench counts as a Workbench for crafting purposes.
+
+So a workshop can save you from carrying every tool and component on your back.}
+{15010}{}{Give me some real crafting examples.}
+{15020}{}{[Back to crafting]}
+{16000}{}{Here are three simple recipes from the current crafting list:
+
+Primitive Sledgehammer - Craftsman, Tier 1
+Needs: 1 Boards, 1 Cloth, 1 Logs.
+Tools: none listed.
+Produces: 1 Primitive Sledgehammer.
+
+Healing Powder - Chemist, Tier 1
+Needs: 1 Broc flower, 1 Xander root, 1 Cloth.
+Tools: Mortar and pestle.
+Produces: 1 Healing Powder.
+
+Electronic parts - Electrician, Tier 1
+Needs: 3 Junk.
+Tools: none listed.
+Produces: 1 Electronic parts.
+
+Those three are useful examples because one needs only materials, one needs a hand tool, and each belongs to a different profession.}
+{16010}{}{Give me some more examples.}
+{16020}{}{[Back to crafting]}
+{17000}{}{Three more:
+
+Spring - Mechanic, Tier 1
+Needs: 1 Iron Sheet.
+Tools: Sledgehammer.
+Produces: 3 Springs.
+
+Zip Gun - Mechanic, Tier 1
+Needs: 2 Junk, 1 Boards, 1 Short pipe.
+Tools: Hammer.
+Produces: 1 Zip Gun.
+
+Antidote - Chemist, Tier 1
+Needs: 1 Water, 1 Tail of a small Radscorpion, 1 Broc flower.
+Tools/workplace: Mortar and pestle, Knife, Fireplace.
+Produces: 1 Antidote.
+
+The Antidote is a good reminder: having the ingredients is not enough if the recipe also calls for tools or a workplace.}
+{17010}{}{What happens if a craft fails?}
+{17020}{}{[Back to crafting]}
+{18000}{}{Crafting can fail if your Craft roll does not beat the recipe difficulty. Fixboy shows a success percentage, so check it before gambling rare parts.
+
+On a failed craft you do not receive the output item.
+
+You can also lose materials. For every required material unit involved in the failed attempt, the crafting code gives that unit a 10 percent chance of being destroyed.
+
+So failing a cheap junk recipe may be an acceptable risk. Repeatedly attempting an expensive recipe at a poor percentage can chew through valuable components.
+
+Tools are requirements, not the normal consumable materials in that failure-loss check.}
+{18010}{}{Remind me what affects my chance.}
+{18020}{}{[Back to crafting]}
+{19000}{}{Short version:
+
+Press F for Fixboy.
+
+Profession level unlocks the recipe's Tech Tier.
+
+Craft skill determines your success roll. Intelligence, Agility and Perception feed into Craft, with Intelligence contributing the most.
+
+Read every recipe for its materials, tools and workplace requirements.
+
+Green means you can currently make it. Grey means you are missing something.
+
+Failed crafts produce nothing and can destroy some of the required materials.
+
+If you remember those rules, you know enough to start crafting.}
+{19010}{}{[Back to crafting]}
+{19020}{}{[Learn other things]}
+{20000}{}{Higher Tech Tiers are much harder to craft reliably.
+
+Fixboy's displayed success chance compares your current Craft skill against this tier difficulty scale:
+
+Tier 1 - 60
+Tier 2 - 90
+Tier 3 - 140
+Tier 4 - 210
+Tier 5 - 300
+Tier 6 - 410
+
+The display is based on your Craft skill divided by that difficulty and is capped at 100 percent.
+
+The actual server craft roll uses the same tier difficulty and succeeds when your Craft skill beats the random roll. For normal play, use the percentage Fixboy shows you as your guide.
+
+The important lesson is simple: unlocking a high-tier recipe with your profession does not mean you are automatically good at making it.}
+{20010}{}{And if I fail?}
+{20020}{}{[Back to crafting]}
+{21000}{}{Skills in our server work differently compared to the original Fallout. In addition, the use of some skills has been replaced by a different purpose.}
+{21010}{}{Sneak.}
+{21020}{}{Lockpicking.}
+{21030}{}{Steal.}
+{21040}{}{Traps.}
+{21050}{}{First Aid.}
+{21060}{}{Doctor.}
+{21070}{}{Science.}
+{21080}{}{Repair.}
+{22000}{}{Sneak. This skill is still being developed, and currently only works against other players. If you sneak and take cover, the chance of being seen by other players is decreased. It could be very usefl for an ambush.}
+{23000}{}{Lockpicking is a hard skill to master for some people. There are three types of locks' difficulties. The only difference is the amount of lockpick positions. The easiest one has TWO  lockpick positions. Every lockpick position has NINE tongue positions. What you need to do is find two correct positions.
+
+Move Further/Backward - changes lockpick position.
+Move Up/Down - changes tongue position.
+
+We start at the lockpick position one. Move Up until you hear a click. The click supposed to tell you that the position is correct, however, depending on your lockpicking skill, it can be false. The higher the skill, the morelikly your click is correct. Once you secured your first click, Move Further and then up until you hear another click. If both clicks are right, you press TURN and then the door opens. If one of them is wrong, the TURN wouldn't work. What you need to do is go back to your positions and move up/down until you hear another click.
+}
+{23010}{}{Tell me more about lockpicking.}
+{24000}{}{A few tips:
+- Don't move too fast. Pay attention to your left top corner and the status of lockpicking skill. Wait for it to disappear, and then move your lockpick. Otherwise, your lockpick would break.
+- Your skill affects how true your clicks are, and it also affects how safe your own lock is.
+- There's a range of lockpicks. The better they are, the more sturdy they are.}
+{25000}{}{Stealing works similarly to the original game. Use it on NPC and try get something out of their inventory. Some GMs prefer to make NPCs unstealable from. If it fails, they will aggro on you. 
+
+If you use the skill successfully on other players, you'd grab something from their inventory without them knowing. If it fails, they will get notified about your attempt.
+
+IMPORTANT: Stealing skill is also used to open containers like furniture. Use the skill on a chair and you can find what's on it.}
+{26000}{}{Traps. This skill affects your ability to arm and disarm traps. If it's lower than 50%, it's unlikely you can set up a trap successfully, so be careful. Same with disarming it.}
+{27000}{}{First Aid affects how well medical items work on yourself or your patients. The higher the skill, the more HP you get rom a stimpak. The higher the skill, the easier it is to stop bleeding with a bandage.}
+{28000}{}{Doctor skill affects success rates of surgeries. There are three types of wounds: Injury, Heavy Wound and Bullet Wound.}
+{28010}{}{Tell me more about Injuries.}
+{28020}{}{Tell me more about Bullet Wound.}
+{28030}{}{Tell me more about Heavy Wound.}
+{29000}{}{Injury is when one of your limbs is damaged and needs treatment. Eyes need bandages, while other limbs require a splint or a plank. Recovery takes time.}
+{30000}{}{Bullet Wound is when you need to extract a broken shell/shard out of the patient's body. You'd need a disinfectant and knife/multitool to get it out.}
+{31000}{}{Heavy Wound needs to be burned and stitched, so you'd need threads, needle and a disinfectant too.}
+{32000}{}{Science affects some crafting recipes and hacking.
+
+The skill itself is used to write on pieces of paper and installing a radio on armor.
+
+IMPORTANT: this skill is also used to dismantle and repair items. Pick an item, choose vault boy's head and choose science, it should open a menu on how to dismantle or repair. It doesn't affect the success of these processes.}
+{33000}{}{Repair affects how successfully you can repair your items. Use it on items  to find out what you need to repair them.}
+

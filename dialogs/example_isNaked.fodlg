@@ -1,0 +1,58 @@
+[comment]
+Example dialog for showing how NPCs should react on absolutely naked, item-less player character.
+
+[data]
+lang=engl
+
+[dialog]
+&
+1 1000 None 0 #
+2 1010 D _script dialog@d_notEmptySlot 1 -1 #
+3 1020 D _script dialog@d_isEmptySlot 1 -1 @
+2 2000 None 1 #
+2 2010 D _script dialog@d_notEmptySlot 1 0 #
+2 2020 D _script dialog@d_isEmptySlot 1 0 #
+2 2030 D _script dialog@d_notEmptySlot 1 1 #
+2 2040 D _script dialog@d_isEmptySlot 1 1 #
+2 2050 D _script dialog@d_notEmptySlot 1 2 #
+2 2060 D _script dialog@d_isEmptySlot 1 2 #
+2 2070 D _script dialog@d_notEmptySlot 1 3 #
+2 2080 D _script dialog@d_isEmptySlot 1 3 #
+2 2090 D _script dialog@d_notEmptySlot 1 4 #
+2 2100 D _script dialog@d_isEmptySlot 1 4 #
+2 2110 D _script dialog@d_notEmptySlot 1 5 #
+2 2120 D _script dialog@d_isEmptySlot 1 5 #
+2 2130 D _script dialog@d_notEmptySlot 1 6 #
+2 2140 D _script dialog@d_isEmptySlot 1 6 #
+2 2150 D _script dialog@d_notEmptySlot 1 255 #
+2 2160 D _script dialog@d_isEmptySlot 1 255 #
+0 2170 @
+3 3000 None 0 &
+
+[engl]
+{100}{}{Typical NPC from any propertly made RPG.}
+{200}{}{You see one of fallout online NPCs, he's generic and bored of his simple life.}
+{210}{}{You see a commoner. He sees you. All of you. That’s when things start getting uncomfortable..}
+{1000}{}{Predialogue checks}
+{1010}{}{Player character is okay}
+{1020}{}{Player character is naked}
+{2000}{}{Hello there!@@Greetings, traveller.@@How's your day?@@Ah, the weather lately - it's killing me...@@When rain falls, will it glow again?@@Damn, I've lost my brahmin!@@Where are you going?@@Oh, I didn't notice you. Hi!@@Looking for someone?}
+{2010}{}{[ You've something in your SLOT_INV(0) ]}
+{2020}{}{{ You've NOTHING in your SLOT_INV(0) }
+{2030}{}{[ You've something in your SLOT_HAND1(1) ]}
+{2040}{}{{ You've NOTHING in your SLOT_HAND1(1) }
+{2050}{}{[ You've something in your SLOT_HAND2(2) ]}
+{2060}{}{{ You've NOTHING in your SLOT_HAND2(2) }
+{2070}{}{[ You've something in your SLOT_ARMOR(3) ]}
+{2080}{}{{ You've NOTHING in your SLOT_ARMOR(3) }
+{2090}{}{[ You've something in your SLOT_MISC(4) ]}
+{2100}{}{{ You've NOTHING in your SLOT_MISC(4) }
+{2110}{}{[ You've something in your SLOT_HEAD(5) ]}
+{2120}{}{{ You've NOTHING in your SLOT_HEAD(5) }
+{2130}{}{[ You've something in your SLOT_BACK(6) ]}
+{2140}{}{{ You've NOTHING in your SLOT_BACK(6) }
+{2150}{}{[ You've something in your SLOT_GROUND(255) ]}
+{2160}{}{{ You've NOTHING in your SLOT_GROUND(255) }
+{2170}{}{< END DIALOG >}
+{3000}{}{GET AWAY FROM ME, CREEP!@@A-a-ah!@@FUCK OFF, WEIRDO!@@YOU BETTER STAY AWAY FROM ME, OR ELSE...@@YOU! STOP WALKING AROUND LIKE THAT!@@*spits* Where is this world heading nowadays...@@PUT ON SOME! SHAME ON YOU!@@Yuck...}
+

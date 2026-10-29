@@ -1,0 +1,52 @@
+[comment]
+
+
+[data]
+lang=engl
+
+[dialog]
+&
+1 1000 None 1 #
+7 1010 D _script DTO@b_uMORE 2 1 5 #
+5 1020 D _script dialog@d_isEmptySlot 1 3 R _script DTO@r_uSET 2 1 20 #
+2 1030 D _script dialog@d_notEmptySlot 1 3 @
+2 2000 None 0 #
+3 2010 @
+3 3000 None 0 #
+6 3010 #
+5 3020 D _param p ST_CHARISMA < 4 @
+4 4000 None 0 #
+0 4010 R _item p PID_BLUE_PASS_KEY + 1 @
+5 5000 None 0 @
+6 6000 None 1 #
+4 6010 D _script dialog@d_notEmptySlot 1 5 D _param p ST_CHARISMA } 8 D _item p PID_SLAVE_COLLAR = 1 #
+4 6020 D _script dialog@d_isEmptySlot 1 5 D or D _param p KARMA_SLAVER } 1 #
+5 6030 D _script dialog@d_notEmptySlot 1 5 D _item p PID_SLAVE_COLLAR = 1 @
+7 7000 Attack 0 &
+
+[engl]
+{100}{}{Fred Swanson}
+{200}{}{Fred Swanson}
+{210}{}{Fred Swanson smokes a cigarette and wears a leather duster}
+{1000}{}{Predialogue installations}
+{1010}{}{PC Slave Annoying}
+{1020}{}{PC Slave}
+{1030}{}{PC Slaver}
+{2000}{}{[You see a slaver guard holding a weapon]}
+{2010}{}{Hey man}
+{3000}{}{[The man looks at you squinting his eyes]
+
+Can't remember you...}
+{3010}{}{I lost my manholder card}
+{3020}{}{I lost my manholder card}
+{4000}{}{[He passes you a blue card]
+
+Bring it back.}
+{4010}{}{[Take the card.]}
+{5000}{}{Get away slave! @@ Don't touch me... @@ FUCK OFF!}
+{6000}{}{[The man leans on and checks your neck.]}
+{6010}{}{Oh this? This is not a slave collar, it's a limited edition Gun Runners' collar. Just bought it.}
+{6020}{}{[Wait]}
+{6030}{}{[Wait]}
+{7000}{}{SLAVE ESCAPED! @@ GET IT BACK IN THE CAGE!}
+
