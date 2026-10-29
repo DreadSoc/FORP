@@ -12858,6 +12858,10 @@ advantage}
 {2104501}{}{This revolver had its barrel elongated for increased range. Fit for a marksman, wanting to shoot down another's hat!}
 {2104600}{}{CZ Scorpion}
 {2104601}{}{The CZ Scorpion EVO 3 is a lightweight 9mm submachine gun. Its polymer frame and compact design make it easy to handle, while its high rate of fire makes it deadly in close quarters. This one has been modified with a silencer and a longer barrel, turning it into something closer to a 9mm carbine or compact assault rifle}
+{2104700}{}{MG08/15}
+{2104701}{}{The MG08/15 was developed in 1915 by Friedrich von Merkatz. Lighter and more portable than its father, the MG08, it saw widespread use by the Imperial German Army. This machine gun has killed the most people out of any weapon of its class. This particular model appears to fire the American 30-06 round}
+{2104800}{}{Sten MK2}
+{2104801}{}{The Sten MK2 was developed during World War 2 as a cheaper alternative to the Thomson Submachine gun. Overall the gun succeeded in its purpose and was put into service. Very simple to repair and produce, and very lightweight as well. This particular one fires 22 ammo at high velocities!}
 {2200000}{}{Civilian Gas Mask}
 {2200001}{}{Civilian gas mask. Quite useful if you don't want to die to radiation}
 {2200100}{}{Military Cap}
