@@ -41,7 +41,14 @@ string[] FonlineMusic = {
 	"14 - Organic Shadows.ogg",
 	"15 - Phagocyte Disaster.ogg",
 	"16 - Stranglet.ogg",
-	"17 - Trinity.ogg"
+	"17 - Trinity.ogg",
+	"yard.ogg",
+	"basement.ogg",
+	"reavers.ogg",
+	"supermutants.ogg",
+	"tactics1.ogg",
+	"tactics2.ogg",
+	"undergroundlab.ogg"
 };
 
 string[] ActionMusic = {
@@ -98,7 +105,8 @@ string[] SuspenceMusic = {
 	"secrets_from_river.ogg",
 	"Save_room1.ogg",
 	"Save_room2.ogg",
-	"last_hideout.ogg"
+	"last_hideout.ogg",
+	"CracklingGlow.ogg"
 };
 
 string[] NNMplaylist = {
@@ -137,6 +145,11 @@ string[] NNMplaylist = {
 
 string[] OtherMusic = {
 	"Blue_Room.mp3",
+	"american_hymn.ogg",
+	"anthem.mp3",
+	"America The Beautiful.ogg",
+	"BrokenRoadsOST_1.ogg",
+	"BrokenRoadsOST_2.ogg",
 	"26A_Candle_in_the_Darkness.ogg",
 	"27Lost_Knowledge.ogg",
 	"28Rangers-journey.ogg",
@@ -186,7 +199,8 @@ string[] CringeMusic = {
 	"terminator2.ogg",
 	"javabar.ogg",
 	"imperialmarch.ogg",
-	"ghostbusters.ogg"
+	"ghostbusters.ogg",
+	"THEATOMWHIP.ogg"
 };
 
 string[] GMSFX = {
@@ -207,11 +221,29 @@ string[] GMSFX = {
 	"BELLTOLL.mp3",
 	"SHOTS.mp3",
 	"SHOTS1.mp3",
-	"sndSrn.ogg"
+	"sndSrn.ogg",
+	"sndSrn.ogg",
+	"blowout_siren.ogg",
+	"blowout_impact_02.ogg",
+	"blowout_lightning_05.ogg",
+	"blowout_wind_02.ogg",
+	"blowout_begin_02.ogg",
+	"blowout_amb_04.ogg",
+	"CARSTART.mp3",
+	"ELECTRIC.mp3",
+	"FOOTSTE1.mp3",
+	"Groza_1.ogg"
 };
 
 string[] JukeboxMusic = {
 	"afterdark.ogg",
+	"Sole-Survivor.ogg",
+	"WhenTheFire_MiltonEstes.ogg",
+	"WaistDeep_PeteSeeger.ogg",
+	"ITSALLOVERBUT.ogg",
+	"BIGIRON.ogg",
+	"Patti-Smith_Rock-_N_-Roll_Friend.ogg",
+	"Anwars-Theme.ogg",
 	"sixteentons.ogg",
 	"maybe.ogg",
 	"worldonfire.ogg",
@@ -320,6 +352,7 @@ string[] RiverdalePA = {
 	"defense_online.ogg",
 	"engineers_report.ogg",
 	"initiate_defense.ogg",
+	"initiating_attack.ogg",
 	"keep_keycards.ogg",
 	"keycards_distributed.ogg",
 	"laser_active.ogg",
@@ -327,5 +360,6 @@ string[] RiverdalePA = {
 	"police_rep.mp3",
 	"production_report.ogg",
 	"report_for_ID.ogg",
-	"violation_of_laws.ogg"
+	"violation_of_laws.ogg",
+	"5_seconds.ogg"
 };
